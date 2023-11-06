@@ -1,0 +1,45 @@
+class Tryby: 
+
+    def tworzenie():
+        return "x"
+
+    def dodawanie():
+        return "a"
+
+    def czytanie():
+        return "r"
+
+    def pisanie():
+        return "w"
+
+class Plik:
+    
+    def __init__(self, sciezka):
+        sciezki = Sciezka()
+        self.sciezka = sciezki.ustaw(sciezka)
+        self.tryby = Tryby()
+
+    def zwroc_sciezke(self):
+        return self.sciezki.zwroc()
+
+    def tryby(cls
+):
+        return self.tryby
+
+    def stworz(self, sciezka):
+        tresc = ""
+        tryb_tworzenia = self.tryby().tworzenie()
+        plik.open(sciezka, tryb_tworzenia)
+        plik.write(tresc)
+        plik.close()
+
+class Sciezka:
+
+    def ustaw(self, sciezka):
+        self.sciezka = sciezka
+
+    def zwroc(self):
+        return self.sciezka
+
+plik = Plik("witaj.txt")
+plik.stworz("witaj.txt")
