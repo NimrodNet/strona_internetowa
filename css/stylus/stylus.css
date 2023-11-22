@@ -7,6 +7,10 @@ komponenty HTML, jak przyciski, tekst, itd.
 @import url("moduly/przycisk.css");
 @import url("moduly/obrys.css");
 @import url("moduly/kontener.css");
+@import url("moduly/nawigacja.css");
+@import url("moduly/grafika.css");
+@import url("moduly/zaokraglenie-rogow.css");
+@import url("moduly/rozne/pozioma-grafika.css");
 
 .niebieski.przycisk {background-color: blue; }
 .zielony.przycisk { background-color: green; }
