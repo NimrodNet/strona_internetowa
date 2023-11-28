@@ -1,0 +1,10 @@
+from pytekst import *
+
+wejscie = "zima.txt"
+wyjscie = "zima.html"
+
+tekst = Tekst(wejscie, wyjscie)
+
+tekst.ustaw_poczatek_akapitu("<p class=\"akapit\">")
+linie = tekst.zwroc_linie()
+print(linie)

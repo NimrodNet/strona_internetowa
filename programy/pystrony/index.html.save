@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Strona główna</title>
+        <link ref="stylesheet" href="glowny.css">
+        <link ref="stylesheet" href="dodatkowy.css">
+
+    </head>
+    <body>
+        <tresc>
+        <h1>To jest prosty generator stron</h1>
+        </tresc>
+         
+        <stopka>Stopka</stopka>
+    </body>
+</html>

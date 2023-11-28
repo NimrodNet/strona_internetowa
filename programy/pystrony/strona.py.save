@@ -1,0 +1,22 @@
+class Strona:
+
+    def __init__(cls):
+
+    def ustaw_nazwe(self, nazwa):
+        self.nazwa = nazwa
+        
+    def ustaw_tytul(self, tytul):
+        self.tytul = tytul
+
+    def ustaw_slowa_kluczowe(self, slowa_kluczowe):
+        self.slowa_kluczowe = slowa_kluczowe
+
+    def ustaw_naglowek(self, naglowek):
+        self.naglowek = naglowek
+
+    def ustaw_stopke(self, stopka):
+        self.stopka = stopka
+
+    def generuj(self):
+        strona = "<html>
+</html>"
