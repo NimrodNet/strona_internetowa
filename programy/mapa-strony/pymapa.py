@@ -68,7 +68,7 @@ class PyMapa:
         return mapa_strony
 
     def zapisz_mape_strony(self):
-        zapisywanie = Zapisz_plik("/home/qwerty891/Pulpit/python/projects/mapa-strony/mapa-strony.xml")
+        zapisywanie = Zapisz_plik(self.sciezka + "/mapa-strony.xml")
         mapa_strony = str(self.mapa_strony)
         zapisywanie.zapisz(mapa_strony)
 

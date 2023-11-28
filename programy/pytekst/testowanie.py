@@ -1,7 +1,7 @@
 from pytekst import *
 
-wejscie = "../../tekst/zakladanie-firmy.txt"
-wyjscie = "../../tekst/zakladanie-firmy.html"
+wejscie = "../../tekst/porady.txt"
+wyjscie = "../../tekst/porady.html"
 
 tekst = Tekst(wejscie, wyjscie)
 tekst.ustaw_poczatek_akapitu("<p>")
