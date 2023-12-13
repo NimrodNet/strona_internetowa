@@ -1,57 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>www.wprzeszlosci.com/index.html</loc></url>
-<url><loc>www.wprzeszlosci.com/index-1.html</loc></url>
-<url><loc>www.wprzeszlosci.com/index.html.save</loc></url>
-<url><loc>www.wprzeszlosci.com/strony/gen_fto.html</loc></url>
-<url><loc>www.wprzeszlosci.com/uslugi/uslugi.html</loc></url>
-<url><loc>www.wprzeszlosci.com/programy/pystrony/index.html</loc></url>
-<url><loc>www.wprzeszlosci.com/programy/pystrony/index.html.save</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/index.html</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/.index.html.swp</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/programowanie/css/stylus/index.html</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/uslugi/uslugi.html</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/artykuly/artykuly-1.html.save</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/artykuly/artykuly-1.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/artykuly-1.html.save</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/kazdy-krok-jest-wazny.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/przemyslenia-o-pilce-noznej.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/artykuly-1.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/dobrze-spedzony-czas.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/artykuly-1-kopia.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/.artykuly-1.html.swp</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/zakladanie-firmy.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/ekstraklasa-15-11-23.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/.porady.html.swp</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/witajcie.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/cos-nowego.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/.witajcie.html.swp</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/porady.html</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/czysta-woda.html</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/projekty.html</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/programowanie/css/stylus/index.html</loc></url>
-<url><loc>www.wprzeszlosci.com/strony/gen_fto.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/kategorie/medycyna/genetyka/filmy/gen_fto_21.11.23.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/filmy/gen_fto.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/filmy/siedzenie-a-zdrowie.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/filmy/gen_pparg.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/filmy/onkologia.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/kategorie/medycyna/genetyka/filmy/gen_fto_21.11.23.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/dietetyka/filmy/podstawy_diety.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/dietetyka/filmy/podstawy_diety.mp4</loc></url>
-<url><loc>www.wprzeszlosci.com/tematyka.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/robots.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/strony/.onkologia.txt.swp</loc></url>
-<url><loc>www.wprzeszlosci.com/strony/onkologia.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/kategorie/kategorie.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/programy/pytekst/zima.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/trening-silowy/2023/11/02/masa.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/kategorie/kategorie.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/dietetyka/diety/dieta_03.11.23.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/strona/dietetyka/diety/dieta_04.11.23.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/artykuly/siedzenie-a-zdrowie.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/trening_silowy/2023/11/02/masa.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/dietetyka/diety/dieta_03.11.23.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/projekty/dietetyka/diety/dieta_04.11.23.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/tekst/porady.txt</loc></url>
-<url><loc>www.wprzeszlosci.com/tekst/zakladanie-firmy.txt</loc></url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.wprzeszlosci.com</loc>
+    <lastmod>2023-12-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/o-nas</loc>
+    <lastmod>2023-12-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/kontakt.html</loc>
+    <lastmod>2023-12-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/artykuly/witajcie.html</loc>
+    <lastmod>2023-12-13</lastmod>
+  </url>
 </urlset>

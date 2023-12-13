@@ -1,0 +1,45 @@
+artykul {
+width: 1200px;
+max-width: 1200px;
+margin: 0 auto;
+outline-style: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+artykul img {
+max-width: 100%;
+width: 800px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+artykul tekst {
+width: 1200px;
+max-width: 100%;
+height: auto;
+font-size: 19px;
+display: block;
+margin: 0 auto;
+}
+
+artykul h1 {
+font-size: 32px;
+}
+
+artykul h2 {
+font-size: 28px;
+}
+
+artykul h3 {
+font-size: 26px;
+}
+
+artykul h4 {
+font-size: 24px;
+}
+
+artykul h5 {
+font-size: 22px;
+}

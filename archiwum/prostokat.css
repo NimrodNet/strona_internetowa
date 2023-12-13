@@ -1,0 +1,10 @@
+/* Prostokąt */
+.prostokat{
+width: fit-content;
+text-decoration: none;
+text-align: left;
+}
+
+.niebieski.prostokat {
+background-color: blue;
+}

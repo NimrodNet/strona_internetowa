@@ -1,0 +1,17 @@
+tytul {
+display: block;
+text-align: center;
+font-size: 43px;
+margin-bottom: 20px;
+width: 100%;
+height: auto;
+}
+
+opis {
+display: block;
+text-align: center;
+font-size: 27px;
+margin-bottom: 20px;
+width: 100%;
+height: auto;
+}
