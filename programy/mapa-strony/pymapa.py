@@ -20,7 +20,7 @@ class PyMapa:
         self.poczatek_sciezki = str(poczatek)
 
     def pobierz_pliki(self):
-        rozszerzenia = {".html", ".mp4", ".txt"}
+        rozszerzenia = {".html"}
         wszystkie_pliki = Wszystkie_pliki(self.sciezka)
         pliki = wszystkie_pliki.zwroc_pliki(rozszerzenia)
         self.pliki = []
@@ -55,7 +55,7 @@ class PyMapa:
         self.mapa_strony = mapa
         
     def konstruuj_element(cls, link):
-        element = str("<url><loc>") + link + str("</loc></url>\n")
+        element = str("<url>\n  <loc>") + link + str("</loc>\n</url>\n")
         return element
 
     def zwroc_poczatek_mapy_strony(cls):

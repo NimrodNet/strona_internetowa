@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="favicon.png">
 <link rel="mask-icon" href="favicon.svg" color="blue">
 <!-- Tytuł strony  -->
-<title>W przeszłości</title>
+<title>W przeszłości | O nas</title>
 <meta name="description" content="W przeszłości - strona główna">
 <meta name="keywords" content="w, przeszłości, w przeszłości, strona, główna">
 <meta name="author" content="o-autorze.txt">
@@ -32,37 +32,8 @@
 <a href="index.html">Strona główna</a>
 <a href="o-nas.html">O nas</a>
 <a href="kontakt.html">Kontakt</a>
-<a href="wsparcie.html">Wsparcie</a>
 </nawigacja>
 
-<wpisy>
-
-<wpis>
-    <img src="grafika/droga-mleczna.jpeg" alt="Droga mleczna"/>
-    <tytul>Witajcie</tytul>
-    <opis>Witajcie na stronie.
-    </opis>
-    <a class="przycisk" href="artykuly/witajcie.html">Więcej</a>
-</wpis>
-
-<wpis>
-    <img src="grafika/rrso_glowna.jpeg" alt="RRSO"/>
-    <tytul>RRSO</tytul>
-    <opis>Czym jest wskaźnik RRSO?
-    </opis>
-    <a class="przycisk" href="artykuly/rrso.html">Więcej</a>
-</wpis>
-
-
-</wpisy>
-
-<stopka>
-Copyright ©. Wszelkie praca zastrzeżone.
-</stopka>
-
-
-
-</body>
-<!-- Koniec sekcji treści -->
+treści -->
 </html>
 <!-- Koniec strony html -->

@@ -3,6 +3,7 @@
   <url>
     <loc>https://www.wprzeszlosci.com</loc>
     <lastmod>2023-12-13</lastmod>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.wprzeszlosci.com/o-nas</loc>
@@ -14,6 +15,10 @@
   </url>
   <url>
     <loc>https://www.wprzeszlosci.com/artykuly/witajcie.html</loc>
+    <lastmod>2023-12-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/artykuly/rrso.html</loc>
     <lastmod>2023-12-13</lastmod>
   </url>
 </urlset>
