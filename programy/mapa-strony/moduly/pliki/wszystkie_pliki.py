@@ -12,7 +12,11 @@ class Wszystkie_pliki:
         # r=root, d=directories, f = files
         for r, d, f in os.walk(path):
             for file in f:
-                if rozszerzenie in file:
+                nazwa_pliku = os.path.basename(file)
+                indeks_kropki = nazwa_pliku.rfind(".")
+                dlugosc = len(nazwa_pliku)
+                rozszerzenie_pliku = nazwa_pliku[int(indeks_kropki):int(dlugosc)]
+                if rozszerzenie == rozszerzenie_pliku:
                     files.append(os.path.join(r, file))
         return files
 

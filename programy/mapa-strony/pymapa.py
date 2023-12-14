@@ -23,10 +23,19 @@ class PyMapa:
         rozszerzenia = {".html"}
         wszystkie_pliki = Wszystkie_pliki(self.sciezka)
         pliki = wszystkie_pliki.zwroc_pliki(rozszerzenia)
+        wylaczone_pliki = {"/home/qwerty891/Pulpit/strona_internetowa/programy",
+        "/home/qwerty891/Pulpit/strona_internetowa/strona2",
+        "/home/qwerty891/Pulpit/strona_internetowa/css",
+        "/home/qwerty891/Pulpit/strona_internetowa/archiwum"}
         self.pliki = []
         for sciezki in pliki:
             for sciezka in sciezki:
-                self.pliki.append(sciezka)
+                flaga_wylaczonej_sciezki = "false"
+                for wylaczona_sciezka in wylaczone_pliki:
+                    if wylaczona_sciezka in sciezka:
+                        flaga_wylaczonej_sciezki = "true"
+                if flaga_wylaczonej_sciezki == "false":
+                    self.pliki.append(sciezka)
 
     def pobierz_plik(self, indeks):
         return self.pliki[indeks]
@@ -55,11 +64,11 @@ class PyMapa:
         self.mapa_strony = mapa
         
     def konstruuj_element(cls, link):
-        element = str("<url>\n  <loc>") + link + str("</loc>\n</url>\n")
+        element = str("  <url>\n    <loc>") + link + str("</loc>\n  </url>\n")
         return element
 
     def zwroc_poczatek_mapy_strony(cls):
-        mapa_strony = str("<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
+        mapa_strony = str("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
         mapa_strony += str("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">")
         return mapa_strony
 
@@ -68,12 +77,12 @@ class PyMapa:
         return mapa_strony
 
     def zapisz_mape_strony(self):
-        zapisywanie = Zapisz_plik(self.sciezka + "/mapa-strony.xml")
+        zapisywanie = Zapisz_plik(self.sciezka + "/mapa.xml")
         mapa_strony = str(self.mapa_strony)
         zapisywanie.zapisz(mapa_strony)
 
-domena = input("Podaj nazwę domeny: ")
-sciezka = input("Podaj ścieżkę: ")
+domena = "https://www.wprzeszlosci.com"
+sciezka = "/home/qwerty891/Pulpit/strona_internetowa"
 
 mapa_strony = PyMapa(domena, sciezka)
 mapa_strony.zapisz_mape_strony()
