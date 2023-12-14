@@ -1,6 +1,7 @@
 import os
 from moduly.pliki.zapisz_plik import *
 from moduly.pliki.wszystkie_pliki import *
+from moduly.pliki.daty_pliku import *
 
 class PyMapa:
 
@@ -35,6 +36,9 @@ class PyMapa:
                     if wylaczona_sciezka in sciezka:
                         flaga_wylaczonej_sciezki = "true"
                 if flaga_wylaczonej_sciezki == "false":
+                    daty_pliku = Daty_pliku(sciezka)
+                    data_utworzenia = daty_pliku.zwroc_date_utworzenia()
+                    print(data_utworzenia)
                     self.pliki.append(sciezka)
 
     def pobierz_plik(self, indeks):
