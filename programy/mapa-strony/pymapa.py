@@ -38,7 +38,6 @@ class PyMapa:
                 if flaga_wylaczonej_sciezki == "false":
                     daty_pliku = Daty_pliku(sciezka)
                     data_utworzenia = daty_pliku.zwroc_date_utworzenia()
-                    print(data_utworzenia)
                     self.pliki.append(sciezka)
 
     def pobierz_plik(self, indeks):
@@ -81,7 +80,7 @@ class PyMapa:
         return mapa_strony
 
     def zapisz_mape_strony(self):
-        zapisywanie = Zapisz_plik(self.sciezka + "/mapa.xml")
+        zapisywanie = Zapisz_plik(self.sciezka + "/mapa-strony.xml")
         mapa_strony = str(self.mapa_strony)
         zapisywanie.zapisz(mapa_strony)
 
