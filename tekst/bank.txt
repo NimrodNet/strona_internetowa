@@ -1,0 +1,41 @@
+Bank
+
+Bank jest to instytucja finansowa, która zajmuje się przyjmowaniem depozytów, 
+czyli wszelkiego rodzaju wkładów i lokat pieniężnych.
+
+Najczęściej udzielają kredytów i pożyczek. Wiele banków wykonuje operacje 
+na miejscu oraz poprzez Internet.
+
+Historia współczesnych banków sięga XIV wieku. Zaczęły się rozwijać 
+w regionie północnych Włoch.
+
+Wśród wielu czynności bankowych można wymienić:
+- udzielanie kredytów i pożyczek,
+- wykonywanie operacji czekowych i wekslowych,
+- wykonywanie operacji finansowych,
+- zobowiązawia związane z emisją papierów wartościowych,
+- usługi doradcze w sprawach bankowych,
+- uzyskanie i sprzedaż nieruchomości,
+- świadczenie różnych usług finansowych.
+
+Każdy bank wchodzi w skład systemu bankowego. System bankowy jest to pewna 
+struktura, w skład której wchodzą instytucje stabilizujące, tworzące rynek 
+oraz pomocnicze.
+
+Instytucje stabilizujące stabilizują rynek bankowy, przepływ depozytów. 
+
+Instytucje tworzące rynek współtworzą rynek bankowy czy inaczej 
+sektor bankowy. Są to banki. 
+
+Instytucje pomocnicze są odpowiedzialne za pozostałe sektory finansowe, 
+deponowanie papierów wartościowych, ochronę banków.
+
+Instytucje stabilizujące:
+- bank centralny - jego rolą jest ogólna stabilizacja rynku finansowego. 
+W Polsce jest to Narodowy Bank Polski (NBP)
+- organ nadzorujący - nadzoruje działanie poszczególnych elementów 
+systemu bankowego
+- podmiot dający gwarancję wypłaty - nadzoruje wypłaty depozytów
+
+Źródła:
+- system bankowy - wikipedia - https://pl.wikipedia.org/wiki/System_bankowy
