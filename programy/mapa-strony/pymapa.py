@@ -27,7 +27,8 @@ class PyMapa:
         wylaczone_pliki = {"/home/qwerty891/Pulpit/strona_internetowa/programy",
         "/home/qwerty891/Pulpit/strona_internetowa/strona2",
         "/home/qwerty891/Pulpit/strona_internetowa/css",
-        "/home/qwerty891/Pulpit/strona_internetowa/archiwum"}
+        "/home/qwerty891/Pulpit/strona_internetowa/archiwum",
+        "/home/qwerty891/Pulpit/strona_internetowa/tekst"}
         self.pliki = []
         for sciezki in pliki:
             for sciezka in sciezki:
@@ -52,7 +53,7 @@ class PyMapa:
             self.linki.append(link)
 
     def konstruuj_link(self, sciezka):
-        return str(self.domena) + str(sciezka)
+        return str(self.domena) + "/" + str(sciezka)
 
     def konstruuj_mape(self):
         mapa = ""
@@ -85,7 +86,7 @@ class PyMapa:
         zapisywanie.zapisz(mapa_strony)
 
 domena = "https://www.wprzeszlosci.com"
-sciezka = "/home/qwerty891/Pulpit/strona_internetowa"
+sciezka = "/home/qwerty891/Pulpit/strona_internetowa/"
 
 mapa_strony = PyMapa(domena, sciezka)
 mapa_strony.zapisz_mape_strony()
