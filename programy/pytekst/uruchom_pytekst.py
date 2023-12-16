@@ -1,7 +1,7 @@
 from pytekst import *
 
-wejscie = input("Podaj plik wejściowy: ")
-wyjscie = input("Podaj plik wyjściowy: ")
+wejscie = "/home/qwerty891/Pulpit/strona_internetowa/tekst/bankowy-kredyt-gotowkowy.txt"
+wyjscie = "/home/qwerty891/Pulpit/strona_internetowa/tekst/bankowy-kredyt-gotowkowy.html"
 
 tekst = Tekst(wejscie, wyjscie)
 tekst.ustaw_poczatek_akapitu("<p>")
