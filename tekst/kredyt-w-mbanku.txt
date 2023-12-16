@@ -1,0 +1,32 @@
+Warunki kredytu w mBanku
+
+Jeżeli ktoś jest zainteresowany kredytem bankowym, może rozważyć możliwość
+wzięcia go w mBanku. Kalkulator kredytowy mBanku pokazuje jak wygląda
+spłata kredytu.
+
+Na dzień 16 grudnia 2024 roku oprocentowanie kredytu bankowego wynosi 12,99%,
+prowizja 14,99%.
+
+Przy kwocie 20 000 zł rozłożonej na 24 miesiące RRSO wynosi 31,32%, a miesięczna rata
+1093 zł. Przy 30 miesiącach spłaty RRSO spada do 27,91%, a rata wynosi 902 zł.
+
+Przy 36 miesiącach spłaty RRSO wynosi 25,66%, a rata 775 zł.
+
+Dla kwoty 40 000 zł i 3 - letnim okresie spłaty, RRSO wynosi 24,06%, a rata
+1523 zł. 
+
+Jak można zauważyć, w przypadku 3 - letniego okresu spłaty i niższej kwoty
+RRSO jest większe, ale rata kredytu prawie 2 razy mniejsza.
+
+To pokazuje, że najważniejsza jest kwota kredytu, a po niej RRSO.
+
+Jest to kredyt gotówkowy w złotówkach. Można go wziąć przez internet
+lub w placówce banku. 
+
+Najpierw sprawdzana jest możliwość wzięcia kredytu, a następnie możemy go otrzymać.
+
+Przed wzięciem kredytu bankowego warto jest najpierw przeczytać regulamin.
+
+Źródło:
+- https://www.mbank.pl/lp2/2023/c1/indywidualny/kredyty/kredyt-gotowkowy/kod-bf/?option=port_google&kampania=mbank%20kalkulator%20kredytowy_e_c&gad_source=1&gclid=Cj0KCQiAsvWrBhC0ARIsAO4E6f9v00GbpFU1EbedYYShKCYIL3PpDtNi35hFsMZMyUsNQaQw6WfzhvgaAilaEALw_wcB&gclsrc=aw.ds
+- https://pdf.mbank.pl/mbankpl/of/regulaminy/kredyty/regulamin_kredytu_gotowkowego_dla_osob_fizycznych_i_klientow_private_banking_w_ramach_bankowosci_detalicznej_mbanku_s.a._-_obowiazuje_od_13.09.2023_r.pdf

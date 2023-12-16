@@ -1,5 +1,0 @@
-Warunki kredytu w mBank
-
-Jeżeli ktoś jest zainteresowany kredytem bankowym, może rozważyć możliwość
-wzięcia go w mBanku. Kalkulator kredytowy mBanku pokazuje jak wygląda
-spłata kredytu.
