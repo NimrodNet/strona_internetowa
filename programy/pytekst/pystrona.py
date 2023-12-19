@@ -1,13 +1,16 @@
+from moduly.pliki.zapisz_plik import *
+
 class PyStrona:
 
     def __init__(self, tekst):
-        tytul = "Szablon"
-        opis = "Szablon"
-        slowa_kluczowe = "szablon, html, szablon html"
+        tytul = tekst.splitlines()[1]
+        opis = tekst.splitlines()[4]
+
         self.ustaw_tytul(tytul)
         self.ustaw_opis(opis)
-        self.ustaw_slowa_kluczowe(slowa_kluczowe)
+        self.stworz_slowa_kluczowe()
         self.ustaw_tekst(tekst)
+        self.stworz_strone()
 
     def zwroc_naglowek(self):
         return """
@@ -39,6 +42,20 @@ class PyStrona:
     def zwroc_stopke(self):
         return """<stopka>Copyright ©. Wszelkie praca zastrzeżone.</stopka>"""
 
+    def stworz_slowa_kluczowe(self):
+        tytul = self.zwroc_tytul()
+        slowa_kluczowe = tytul.split()
+        ilosc = len(slowa_kluczowe)
+        indeks = 0
+        slowa = ""
+        while indeks < ilosc:
+            slowo = slowa_kluczowe[indeks]
+            slowa += slowo.lower()
+            if indeks < ilosc - 1:
+                slowa += ", "
+            indeks += 1
+        slowa += ", " + tytul.lower()
+        self.slowa_kluczowe = slowa
 
     def ustaw_tytul(self, tytul):
         self.tytul = tytul
@@ -50,7 +67,42 @@ class PyStrona:
         self.slowa_kluczowe = slowa_kluczowe
 
     def ustaw_tekst(self, tekst):
-        self.tekst = tekst
+        self.tekst = """
+<body>
+
+<naglowek>
+<tytul>W przeszłości</tytul>
+<opis>Blog</opis>
+<naglowek>
+
+<nawigacja>
+<a href="../index.html">Strona główna</a>
+<a href="../o-nas.html">O nas</a>
+<a href="../kontakt.html">Kontakt</a>
+<a href="../wsparcie.html">Wsparcie</a>
+</nawigacja>
+
+<artykul>
+    <img src="../grafika/rrso_artykul.jpeg" alt="RRSO"/>
+    <tytul>""" + self.zwroc_tytul() + """</tytul>
+    <tekst>
+        """ + tekst + """
+    </tekst>
+</artykul>
+
+""" + self.zwroc_stopke() + """
+
+</body>
+
+</head>
+"""
+
+    def stworz_strone(self):
+        self.strona = self.zwroc_naglowek() + self.zwroc_tekst()
+        print(self.strona)
+
+    def zwroc_strone(self):
+        return self.strona
 
     def zwroc_tytul(self):
         return self.tytul
@@ -60,3 +112,6 @@ class PyStrona:
 
     def zwroc_slowa_kluczowe(self):
         return self.slowa_kluczowe
+
+    def zwroc_tekst(self):
+        return self.tekst

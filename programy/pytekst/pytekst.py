@@ -39,3 +39,6 @@ class Tekst:
 
     def zwroc_linie(self):
         return self.linie
+
+    def zwroc_czysty_tekst(self):
+        return self.tekst
