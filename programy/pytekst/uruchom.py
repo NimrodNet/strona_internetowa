@@ -1,17 +1,22 @@
 from pytekst import *
 from pystrona import *
 from pyfragment import *
+from pypliki import *
 
-nazwa = "konsolidacja-dlugu"
-folder_tekstow = "/home/qwerty891/Pulpit/strona_internetowa/tekst/"
-folder_artykulow = "/home/qwerty891/Pulpit/strona_internetowa/artykuly/"
-wejscie = folder_tekstow + nazwa + ".txt"
-wyjscie = folder_artykulow + nazwa + ".html"
+sciezka = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/"
+sciezka_wyjsciowa = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/wyjscie/"
+pypliki = PyPliki(sciezka)
+rozszerzenia = {".txt"}
+pliki = pypliki.zwroc_pliki_z_rozszerzeniami(rozszerzenia)
 
-tekst = Tekst(wejscie, wyjscie)
-tekst.ustaw_poczatek_akapitu("<p>")
-tekst.zamien()
-linie = tekst.zwroc_linie()
-
-strona = PyStrona(linie)
-strona_internetowa = strona.zwroc_strone()
+for plik in pliki:
+    wejscie = plik
+    pypliki.ustaw_sciezke(wejscie)
+    nazwa = pypliki.zwroc_nazwe_pliku_bez_rozszerzenia()
+    wyjscie = sciezka_wyjsciowa + nazwa + ".html"
+    pytekst = PyTekst(wejscie, wyjscie)
+    tekst = pytekst.zwroc_linie()
+    pystrona = PyStrona(tekst)
+    strona_internetowa = pystrona.zwroc_strone()
+    print(wyjscie)
+    pypliki.zapisz_plik(strona_internetowa, wyjscie)

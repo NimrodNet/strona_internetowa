@@ -1,6 +1,6 @@
 import os
 
-class Tekst:
+class PyTekst:
 
     def __init__(self, wejscie, wyjscie):
         self.wejscie = wejscie
@@ -9,6 +9,7 @@ class Tekst:
         self.linie = ""
         self.ustaw_poczatek_akapitu("<p>")
         self.czytaj()
+        self.zamien()
 
     def czytaj(self):
         plik = ""

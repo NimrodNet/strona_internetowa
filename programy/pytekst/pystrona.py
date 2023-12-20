@@ -99,7 +99,6 @@ class PyStrona:
 
     def stworz_strone(self):
         self.strona = self.zwroc_naglowek() + self.zwroc_tekst()
-        print(self.strona)
 
     def zwroc_strone(self):
         return self.strona
