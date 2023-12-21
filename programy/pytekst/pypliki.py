@@ -1,6 +1,7 @@
 import os
 from moduly.pliki.wszystkie_pliki import *
 from moduly.pliki.zapisz_plik import *
+from moduly.pliki.wczytaj_plik import *
 from pathlib import Path
 
 class PyPliki:
@@ -29,6 +30,13 @@ class PyPliki:
     def zwroc_nazwe_pliku_bez_rozszerzenia(self):
         return Path(self.zwroc_sciezke()).stem
 
-    def zapisz_plik(self, tekst, sciezka):
-        zapisz_plik = Zapisz_plik(sciezka)
+    def zapisz_plik(self, tekst):
+        zapisz_plik = Zapisz_plik(self.sciezka)
         zapisz_plik.zapisz(tekst)
+
+    def wczytaj_plik(self):
+        wczytanie_pliku = Wczytaj_plik(self.sciezka)
+        return wczytanie_pliku.wczytaj_plik()
+
+    def plik_istnieje(self):
+        return os.path.exists(self.sciezka)

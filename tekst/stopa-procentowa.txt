@@ -1,0 +1,7 @@
+Stopa procentowa
+
+Stopa procentowa to cena, którą musimy zwrócić bankowi, korzystając
+z pieniędzy, które udostępnia, np. po wzięciu kredytu.
+
+Źródło:
+- https://pl.wikipedia.org/wiki/Stopa_procentowa
