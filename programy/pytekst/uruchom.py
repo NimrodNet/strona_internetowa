@@ -11,4 +11,4 @@ wpis
 """
 
 pywpisy.dodaj_wpis(wpis)
-#pywpisy.wyswietl_strone()
+pywpisy.wyswietl_strone()

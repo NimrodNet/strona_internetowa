@@ -6,10 +6,11 @@ class PyWpisy:
 
     def __init__(self):
         try:
-            self.sciezka = "/home/qwerty891/Pulpit/strona_internetowa/"
-            self.sciezka_wejsciowa = self.sciezka + "programy/pytekst/wejscie/"
-            self.sciezka_wyjsciowa = self.sciezka + "programy/pytekst/wyjscie/"
+            self.sciezka = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/"
+            self.sciezka_wejsciowa = self.sciezka + "wejscie/"
+            self.sciezka_wyjsciowa = self.sciezka + "wyjscie/"
             self.sciezka_strony_glownej = self.sciezka + "index.html"
+            self.pyparser = PyParser(self.sciezka_strony_glownej)
         except:
             print("PyWpisy, init(): nie można uruchomić pliku.")
 
@@ -24,7 +25,8 @@ class PyWpisy:
     def dodaj_wpis(self, wpis):
         try:
             sciezka = self.sciezka_strony_glownej
-            pyparser = PyParser(sciezka)
+            pyparser = self.pyparser
+            pyparser.ustaw_sciezke(sciezka)
             indeksy = pyparser.pobierz_indeks("<wpisy>")
             indeks = indeksy[0] + len("<wpisy>") + 1
             pyparser.wstaw_fragment(wpis, int(indeks))
@@ -34,7 +36,7 @@ class PyWpisy:
     def wyswietl_strone(self):
         try:
             sciezka = self.sciezka_strony_glownej
-            pyparser = PyParser(sciezka)
+            pyparser = self.pyparser
             pyparser.ustaw_sciezke(sciezka)
             pyparser.wyswietl_strone()
         except:
