@@ -10,5 +10,8 @@ wpis
 </wpis> 
 """
 
-pywpisy.dodaj_wpis(wpis)
-pywpisy.wyswietl_strone()
+#pywpisy.dodaj_wpis(wpis)
+#pywpisy.aktualizuj()
+#pywpisy.wyswietl_strone()
+
+pywpisy.zwroc_liste_artykulow()

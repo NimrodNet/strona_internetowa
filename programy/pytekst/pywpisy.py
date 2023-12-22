@@ -1,6 +1,7 @@
 from pystrony import *
 from pyparser import *
 from pypliki import *
+from pyartykul import *
 
 class PyWpisy:
 
@@ -41,3 +42,25 @@ class PyWpisy:
             pyparser.wyswietl_strone()
         except:
             print("PyWpisy, wyswietl_strone(): nie można wyświetlić strony.")
+
+    def aktualizuj(self):
+        try:
+            sciezka = self.sciezka_strony_glownej
+            pypliki = PyPliki(sciezka)
+            strona_glowna = self.pyparser.zwroc_strone()
+            pypliki.zapisz_plik(strona_glowna)
+        except:
+            print("PyWpisy, zapisz_strone_glowna(): nie można zapisać strony głównej.")
+
+    def zwroc_liste_artykulow(self):
+        try:
+            sciezka = self.sciezka_wyjsciowa
+            pypliki = PyPliki(sciezka)
+            rozszerzenia = {".html"}
+            lista_plikow = pypliki.zwroc_pliki_z_rozszerzeniami(rozszerzenia)
+            for sciezka_pliku in lista_plikow:
+                pyartykul = PyArtykul(sciezka_pliku)
+                data_modyfikacji = pyartykul.zwroc_date_modyfikacji()
+                print(data_modyfikacji)
+        except:
+            print("PyWpisy, zwroc_liste_artykulow(): błąd.")
