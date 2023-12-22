@@ -1,12 +1,14 @@
-from pystrony import *
-from pyparser import *
+from pywpisy import *
 
-sciezka = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/"
-sciezka_wyjsciowa = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/wyjscie/"
+pywpisy = PyWpisy()
 
-pystrony = PyStrony(sciezka, sciezka_wyjsciowa)
+pywpisy.zamien_tekst_na_strony()
 
-#sciezka_strony_glownej = sciezka + "index.html"
-#pyparser = PyParser(sciezka_strony_glownej)
-#pyparser.pobierz_strone()
-#pyparser.pobierz_element("<wpis>", "</wpis>")
+wpis = """
+<wpis>
+wpis
+</wpis> 
+"""
+
+pywpisy.dodaj_wpis(wpis)
+#pywpisy.wyswietl_strone()

@@ -6,9 +6,9 @@ from pypliki import *
 class PyStrony:
 
     def __init__(self, wejscie, wyjscie):
-        self.zamien_tekst_na_strone(wejscie, wyjscie)
+        self.zamien_tekst_na_strony(wejscie, wyjscie)
 
-    def zamien_tekst_na_strone(self, wejscie, wyjscie):
+    def zamien_tekst_na_strony(self, wejscie, wyjscie):
         sciezka = wejscie
         sciezka_wyjsciowa = wyjscie
         pypliki = PyPliki(sciezka)
