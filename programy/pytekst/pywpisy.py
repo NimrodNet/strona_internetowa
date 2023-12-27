@@ -2,6 +2,10 @@ from pystrony import *
 from pyparser import *
 from pypliki import *
 from pyartykul import *
+from pywpis import *
+from datetime import datetime
+import os
+import glob
 
 class PyWpisy:
 
@@ -58,9 +62,7 @@ class PyWpisy:
             pypliki = PyPliki(sciezka)
             rozszerzenia = {".html"}
             lista_plikow = pypliki.zwroc_pliki_z_rozszerzeniami(rozszerzenia)
-            for sciezka_pliku in lista_plikow:
-                pyartykul = PyArtykul(sciezka_pliku)
-                data_modyfikacji = pyartykul.zwroc_date_modyfikacji()
-                print(data_modyfikacji)
+            lista_plikow.sort(key=os.path.getmtime, reverse=True)
+            return lista_plikow
         except:
             print("PyWpisy, zwroc_liste_artykulow(): błąd.")

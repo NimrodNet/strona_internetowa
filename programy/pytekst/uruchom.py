@@ -14,4 +14,5 @@ wpis
 #pywpisy.aktualizuj()
 #pywpisy.wyswietl_strone()
 
-pywpisy.zwroc_liste_artykulow()
+lista_wpisow = pywpisy.zwroc_liste_artykulow()
+print(str(lista_wpisow))
