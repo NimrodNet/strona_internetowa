@@ -12,10 +12,20 @@ class PyWpis:
         return self.tytul
 
     def ustaw_sciezke(self, sciezka):
-        self.sciezka = sciezka
+        self.sciezka = "\"" +  sciezka + "\""
 
     def zwroc_sciezke(self):
         return self.sciezka
+
+    def zwroc_sciezke_z_wpisu(self, wpis):
+        try:
+            znacznik = "href"
+            poczatek = wpis.index(znacznik) + len(znacznik) + 2
+            koniec = wpis.index(">", poczatek) - 1
+            sciezka = wpis[poczatek:koniec]
+            return sciezka
+        except:
+            print("PyWpis, zwroc_sciezke(wpis): nie można zwrócić ścieżki.")
 
     def ustaw_opis(self, opis):
         self.opis = opis
@@ -31,7 +41,7 @@ class PyWpis:
     <tytul>""" + self.zwroc_tytul() + """</tytul>
     <opis>""" + self.zwroc_opis() + """
     </opis>
-    <a class="przycisk" href=""" + "\"" + self.zwroc_sciezke() + "\"" + """>Więcej</a>
+    <a class="przycisk" href=""" +  self.zwroc_sciezke() + """>Więcej</a>
 </wpis>
 """
             return wpis

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.wprzeszlosci.com/czysty-indeks.html</loc>
+  </url>
+  <url>
     <loc>https://www.wprzeszlosci.com/kontakt.html</loc>
   </url>
   <url>
@@ -11,6 +14,9 @@
   </url>
   <url>
     <loc>https://www.wprzeszlosci.com/wsparcie.html</loc>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/index-kopia.html</loc>
   </url>
   <url>
     <loc>https://www.wprzeszlosci.com/szablon/szablon.html</loc>
@@ -37,6 +43,9 @@
     <loc>https://www.wprzeszlosci.com/artykuly/kredyt-gotowkowy.html</loc>
   </url>
   <url>
+    <loc>https://www.wprzeszlosci.com/artykuly/bank.html</loc>
+  </url>
+  <url>
     <loc>https://www.wprzeszlosci.com/artykuly/bad-bank.html</loc>
   </url>
   <url>
@@ -49,7 +58,13 @@
     <loc>https://www.wprzeszlosci.com/artykuly/odsetki-karne.html</loc>
   </url>
   <url>
+    <loc>https://www.wprzeszlosci.com/artykuly/system-bankowy-rejestr.html</loc>
+  </url>
+  <url>
     <loc>https://www.wprzeszlosci.com/artykuly/witajcie.html</loc>
+  </url>
+  <url>
+    <loc>https://www.wprzeszlosci.com/artykuly/bank_pekao.html</loc>
   </url>
   <url>
     <loc>https://www.wprzeszlosci.com/artykuly/bank-pekao.html</loc>

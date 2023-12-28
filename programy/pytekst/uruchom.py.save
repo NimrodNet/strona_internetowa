@@ -15,18 +15,16 @@ for sciezka in lista_wpisow:
     tytul = pyparser.zwroc_tytul()
     opis = pyparser.zwroc_opis()
     sciezka = os.path.relpath(sciezka)
-    sciezka = sciezka.replace("../../", "")
     pywpis = PyWpis(sciezka, tytul, opis)
     wpis = pywpis.zwroc_wpis()
+    print(wpis)
     wpisy = pywpisy.zwroc_wpisy()
     wpis_istnieje = False
     for wpis_ze_strony in wpisy:
         wpis_ze_strony = "\n" + wpis_ze_strony + "\n"
-        sciezka_z_wpisu = pywpis.zwroc_sciezke_z_wpisu(wpis_ze_strony)
-        wpis_istnieje = sciezka == sciezka_z_wpisu
+        wpis_istnieje = wpis == wpis_ze_strony
         if wpis_istnieje:
             break
     dodac_nowy_wpis = not wpis_istnieje
     if dodac_nowy_wpis:
         pywpisy.dodaj_wpis(wpis)
-        pywpisy.aktualizuj()

@@ -1,0 +1,12 @@
+System Bankowy Rejestr
+
+System Bankowy Rejestr służy do przechowywania danych o klientach banków,
+którzy zalegają ze spłatą kredytu dłużej niż 60 dni. Prowadzi go Związek
+Banków Polskich. Kwota kredytu nie może być niższa niż 200 zł w przypadku
+zwykłych osób i 500 zł w przypadku firm. 
+
+Dotyczy klientów banków.
+
+Źródła:
+- https://www.big.pl/baza-wiedzy/bankowy-rejestr
+- https://www.big.pl/baza-wiedzy/bankowy-rejestr-niesolidnych-klientow-czym-rozni-sie-od-innych-baz-dluznikow
