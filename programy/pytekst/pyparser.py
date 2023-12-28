@@ -41,6 +41,18 @@ class PyParser:
             indeks = tekst.find(znacznik, poczatek)
         return indeksy
 
+    def pobierz_indeksy_zakonczenia(self, znacznik):
+        try:
+            indeksy = self.pobierz_indeks(znacznik)
+            dlugosc = len(znacznik)
+            indeksy_zakonczenia = []
+            for indeks in indeksy:
+                indeks += dlugosc
+                indeksy_zakonczenia.append(indeks)
+            return indeksy_zakonczenia
+        except:
+            print("PyParser, pobierz_indeksy_zakonczenia(): nie można pobrać indeksów zakończenia.")
+
     def wytnij(self, poczatek, koniec):
         tekst = self.strona_internetowa
         dlugosc = len(tekst)
@@ -67,3 +79,35 @@ class PyParser:
         tekst = self.strona_internetowa
         tekst = tekst[ : indeks] + fragment + tekst[indeks : ]
         self.strona_internetowa = tekst
+
+    def zwroc_zawartosc(self, znacznik_poczatkowy, znacznik_koncowy):
+        strona = self.zwroc_strone()
+        poczatek = self.pobierz_indeks(znacznik_poczatkowy)
+        koniec = self.pobierz_indeks(znacznik_koncowy)
+        poczatek = poczatek[0] + len(znacznik_poczatkowy)
+        koniec = koniec[0]
+        tytul = strona[poczatek:koniec]
+        return tytul
+
+    def zwroc_tytul(self):
+        znacznik_poczatkowy = "<title>"
+        znacznik_koncowy = "</title>"
+        tytul = self.zwroc_zawartosc(znacznik_poczatkowy, znacznik_koncowy)
+        return tytul
+
+    def zwroc_tekst(self):
+        znacznik_poczatkowy = "<tekst>"
+        znacznik_koncowy = "</tekst>"
+        tekst = self.zwroc_zawartosc(znacznik_poczatkowy, znacznik_koncowy)
+        tekst = tekst.replace("<p>", "").replace("</p>", "")
+        tekst = tekst.replace("<h1>", "").replace("</h1>", "")
+        return tekst
+
+    def zwroc_opis(self):
+        try:
+            tekst = self.zwroc_tekst()
+            linie = tekst.splitlines(2)
+            opis = linie[5].replace("\n", "")
+            return opis
+        except:
+            print("pyparser.py, zwroc_opis(): nie można zwrócić opisu.")

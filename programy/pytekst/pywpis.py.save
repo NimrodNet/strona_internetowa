@@ -1,0 +1,28 @@
+class PyWpis:
+
+    def __init__(self, sciezka, data):
+        self.ustaw_sciezke(sciezka)
+        self.ustaw_date(data)
+
+    def ustaw_sciezke(self, sciezka):
+        self.sciezka = sciezka
+
+    def zwroc_sciezke(self):
+        return self.sciezka
+
+    def ustaw_date(self, data):
+        self.data = data
+
+    def zwroc_date(self):
+        return self.data
+
+    def ustaw_szablon(self):
+        """
+<wpis>
+               <img src="grafika/boze-narodzenie-2023.jpeg" alt="Boże Narodzenie 2023"/>
+               <tytul>Boże Narodzenie 2023</tytul>
+           <opis>Wszystkiego Najlepszego z okazji Świąt Bożego Narodzenia.
+    </opis>
+    <a class="przycisk" href="artykuly/boze-narodzenie-2023.html">Więcej</a>
+</wpis>"""
+

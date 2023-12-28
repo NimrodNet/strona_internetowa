@@ -5,7 +5,6 @@ from pyartykul import *
 from pywpis import *
 from datetime import datetime
 import os
-import glob
 
 class PyWpisy:
 
@@ -62,7 +61,17 @@ class PyWpisy:
             pypliki = PyPliki(sciezka)
             rozszerzenia = {".html"}
             lista_plikow = pypliki.zwroc_pliki_z_rozszerzeniami(rozszerzenia)
-            lista_plikow.sort(key=os.path.getmtime, reverse=True)
+            lista_plikow.sort(key=os.path.getmtime, reverse=False)
             return lista_plikow
         except:
             print("PyWpisy, zwroc_liste_artykulow(): błąd.")
+
+    def zwroc_wpisy(self):
+        try:
+            sciezka = self.sciezka_strony_glownej
+            pyparser = self.pyparser
+            pyparser.ustaw_sciezke(sciezka)
+            wpisy = pyparser.pobierz_fragmenty("<wpis>", "</wpis>")
+            return wpisy
+        except:
+            print("PyWpisy, zwroc_wpisy(): nie udało się zwrócić wpisów.")
