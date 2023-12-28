@@ -10,9 +10,9 @@ class PyWpisy:
 
     def __init__(self):
         try:
-            self.sciezka = "/home/qwerty891/Pulpit/strona_internetowa/programy/pytekst/"
-            self.sciezka_wejsciowa = self.sciezka + "wejscie/"
-            self.sciezka_wyjsciowa = self.sciezka + "wyjscie/"
+            self.sciezka = "/home/qwerty891/Pulpit/strona_internetowa/"
+            self.sciezka_wejsciowa = self.sciezka + "tekst/"
+            self.sciezka_wyjsciowa = self.sciezka + "artykuly/"
             self.sciezka_strony_glownej = self.sciezka + "index.html"
             self.pyparser = PyParser(self.sciezka_strony_glownej)
         except:

@@ -15,6 +15,7 @@ for sciezka in lista_wpisow:
     tytul = pyparser.zwroc_tytul()
     opis = pyparser.zwroc_opis()
     sciezka = os.path.relpath(sciezka)
+    sciezka = sciezka.replace("../../", "")
     pywpis = PyWpis(sciezka, tytul, opis)
     wpis = pywpis.zwroc_wpis()
     wpisy = pywpisy.zwroc_wpisy()
@@ -27,5 +28,4 @@ for sciezka in lista_wpisow:
     dodac_nowy_wpis = not wpis_istnieje
     if dodac_nowy_wpis:
         pywpisy.dodaj_wpis(wpis)
-
-pywpisy.wyswietl_strone()
+        pywpisy.aktualizuj()

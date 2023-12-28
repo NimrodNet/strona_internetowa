@@ -1,0 +1,4 @@
+Różne:
+
+28.12.2023, godz.18.00 - pierwsza udana próba skopiowania wpisów z folderów z artykułami
+na główną stronę. Kilka wpisów się nie skopiowała, reszta się skopiowała.

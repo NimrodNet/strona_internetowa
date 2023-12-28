@@ -24,13 +24,16 @@ class PyWpis:
         return self.opis
 
     def zwroc_wpis(self):
-        wpis = """
+        try:
+            wpis = """
 <wpis>
-    <img src="grafika/boze-narodzenie-2023.jpeg" alt="Boże Narodzenie 2023"/>
+    <img src="grafika/rrso_glowna.jpeg" alt="RRSO"/>
     <tytul>""" + self.zwroc_tytul() + """</tytul>
     <opis>""" + self.zwroc_opis() + """
     </opis>
     <a class="przycisk" href=""" + "\"" + self.zwroc_sciezke() + "\"" + """>Więcej</a>
 </wpis>
 """
-        return wpis
+            return wpis
+        except:
+            print("PyWpis, zwroc_wpis(): nie można zwrócić wpisu.")
