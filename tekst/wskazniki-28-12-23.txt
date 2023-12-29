@@ -1,0 +1,7 @@
+Wskaźniki 28.12.23
+
+Wartość wskaźników na 28.12.2023. Wibor - 5.50%, Wibid - 5.17%, Wiron - 4,92%, 
+Euribor - 3.87%, Saron - 1.7%.
+
+Źródła:
+- https://www.bankier.pl/mieszkaniowe/stopy-procentowe/wibor

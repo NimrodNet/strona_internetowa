@@ -1,0 +1,44 @@
+Wskaźniki stóp procentowych
+
+Wskaźnik stopy procentowej to wartość, która wpływa na kwoty kredytów
+bankowych, lokaty.
+
+Wskaźniki odnoszą się do działania banków dla innych banków.
+
+Wskaźniki stóp procentowych w Polsce:
+- Wibor, ang. Warsaw Interbank Offer Rate - udzielanie pożyczek bankom 
+przez inne banki;
+- Wibid, ang. Warsaw Interbank Offer Bid Rate - kwota przyjęcia depozytów
+- Wiron, ang. Warsaw Interest Rate Overnight - transakcje między
+bankami, a dużymi przedsiębiorstwami;
+- Euribor, ang. Euro Interbank Offer Rate - kwota kredytów bankowych 
+na rynku europejskim;
+- Saron, ang. Swiss Averaged Rate Overnight - udzielanie pożyczek
+na rynku szwajcarskim;
+- Libor, ang. London Interbank Offer Rate - rynek angielski. Wskaźnik został
+zastąpiony przez Saron.
+
+Okres rozliczeniowy ma swój początek oraz czas. Można go wyliczyć
+ze wzoru:
+cr = p + c,
+gdzie:
+cr - czas rozliczenia,
+p - początek,
+c - czas trwania wskaźnika.
+
+Czasy wskaźników:
+- jednodniowy - ON, ang. Overnight - okres dobowy;
+- następnego dnia - TN, ang. Tomorrow/Next - dobowy;
+- tygodniowy - SW, ang. Spot Week. Tygodniowy;
+- dwutygodniowy - 2W, ang. Two Weeks. Dwutygodniowy;
+- miesięczny - 1M, ang. One Month. Miesięczny;
+- trzymiesięczny - 3M, ang. Three Months. Trzymiesięczny;
+- sześciomiesięczny - 6M, ang. Six Months. Sześciomiesięczny;
+- roczny - 1Y, ang. One Year. Roczny.
+
+Wskaźnik jednodniowy rozpoczyna się tego samego dnia, "następnego dnia"
+kolejnego dnia, a pozostałe dwa dni po dacie zawarcia transakcji.
+
+Źródła:
+- https://www.bankier.pl/mieszkaniowe/stopy-procentowe/wibor
+- https://pl.wikipedia.org/wiki/WIBOR

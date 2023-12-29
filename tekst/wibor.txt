@@ -1,0 +1,46 @@
+WIBOR
+
+WIBOR, ang. Warsaw Interbank Offer Rate, to stopa procentowa, czyli cena
+kredytu udzielanego przez banki dla innych banków. Jest to średnia
+stopa oprocentowania wszystkich banków, wchodzących w skład grupy WIBOR.
+
+WIBOR jest wyznaczany czasowo. Może się zaczynać w momencie zawarcia 
+transakcji lub kilka dni po niej oraz trwa przez pewien czas.
+
+Dzięki niemu można oszacować opłacalność zawierania kredytów bankowych.
+
+Im niższy WIBOR tym bardziej opłaca się wziąć kredyt, aczkolwiek jego 
+wysokość jest zmienna. Ma to znaczenie w przypadku kredytów ze zmiennym
+oprocentowaniem.
+
+Wskaźnik WIBOR prezentuje prosty wzór:
+tW = s + t,
+gdzie:
+tW - ogólny czas pobierania danych WIBOR,
+s - początek,
+t - okres liczenia. 
+
+Dla okresów "aktualnego" początek liczenia następuje w dzień zawarcia
+transakcji przez jedną dobę, "następny dzień" liczenie następuje następnego
+dnia przez jedną dobę. Dla pozostałych okresów liczenie następuje drugiego
+dnia przez okres, wskazany w nazwie.
+
+Okresy wskaźnika WIBOR:
+- aktualnie - ON, ang. Overnight;
+- następny dzień - TN, ang. Tomorrow/Next;
+- tygodniowy - SW, ang. Spot Week;
+- dwutygodniowy - 2W, ang. Two Weeks;
+- miesięczny - 1M, ang. One Month;
+- trzy miesiące - 3M, ang Three Months;
+- sześć miesięcy - 6M, ang. Six Months;
+- jeden rok - 1Y, ang. One Year.
+
+Od 2023 roku WIBOR jest zastępowany przez wskaźnik WIRON, a od 2025 roku
+banki muszą obowiązkowo przejść na WIRON. WIRON, ang. Warsaw Interest
+Rate Overnight to indeks, obliczany na Giełdzie Papierów Wartościowych
+jako stopa procentowa, zależna od transakcji między instytucjami finansowymi, 
+m.in. bankami i dużymi przedsiębiorstwami.  
+
+Źródła:
+- https://www.bankier.pl/mieszkaniowe/stopy-procentowe/wibor
+- https://pl.wikipedia.org/wiki/WIBOR
