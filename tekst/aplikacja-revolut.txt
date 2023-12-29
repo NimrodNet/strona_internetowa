@@ -1,0 +1,39 @@
+Aplikacja Revolut
+
+Aplikacja Revolut odnosi się do firmy Revolut. 
+W Polsce do banku Revolut Bank UAB.
+
+Revolut Ltd to brytyjska firma, założona w 2015 roku przez 
+Nikolaya Storonsky-ego i Vlada Yatsenko. Oferuje usługi w 35
+różnych krajach, a część z nich to usługi bankowe. 
+
+Pod koniec 2018 roku otrzymała europejską licencję bankową. 
+Usługi bankowe świadczy tylko na terenie wybranych krajów 
+Unii Europejskiej. Nie posiada licencji bankowej m.in. w Anglii.
+
+Usługi bankowe to usługi banku Revolut Bank UAB, świadczone przez firmę
+Revolut z poziomu aplikacji Revolut.
+
+Usługi bankowe:
+- rachunek bierzący
+- usługi Plus, Premium, Metal i Ultra
+- usługi promocyjne, bezpłatne wersje próbne
+- Revolut < 18
+- poczekalnie lotniskowe
+- inteligentne opóźnienie 
+- kasy oszczędnościowe
+- konto depozytowe na żądanie
+- kredyty bankowe
+- przełączanie kont
+
+Sama Aplikacja Revolut posiada wiele różnych opcji, aczkolwiek ciężko
+znaleźć część tylko bankową.
+
+Przed korzystaniem z usług należy wpierw określić zakres geograficzny.
+Firma nie zwraca pieniędzy ofiarom ataków spoza strefy bankowej Revolut.
+
+Źródła:
+- https://www.revolut.com/pl-PL/
+- https://help.revolut.com/pl-PL/help/transfers/inbound-transfers/how-to-receive-money-from-another-bank/what-account-details-should-i-use-to-transfer-money-to-my-revolut-account/what-is-revolut-s-bank-name-and-address/
+- https://pl.wikipedia.org/wiki/Revolut
+- https://www.datawallet.com/crypto/revolut-countries
