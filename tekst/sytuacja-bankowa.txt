@@ -1,0 +1,38 @@
+Sytuacja bankowa
+
+Obecna sytuacja bankowa jest niestabilna. 28 krajów jest narażone
+na ryzyko kłopotów z zadłużeniem. 11 krajów jest w trudnej sytuacji.
+
+Istnieje ryzyko nagłego wzrostu stóp procentowych, przez co 
+wzrastają inne koszty, m.in. eksport, czyli koszty utrzymania.
+Mocno obciążone są kraje rozwijające się, ale też najuboższe.
+
+Przez ostatnie 10 lat zadłużenie wzrosło 2 - krotnie. W 2012 roku
+wynosiło 457,9 miliardów dolarów, a w 2022 roku 1,070.5 mld dolarów,
+czyli ponad 1 bilion dolarów. W przypadku obligacji wzrosło aż 9 - krotnie,
+z 11.5 mld dolarów do 98.3 mld dolarów.
+
+Zewnętrzne zadłużenie wzrosło w krajach o wysokich i niskich dochodach,
+a utrzymało się na podobnym poziomie w tych o średnich dochodach.
+
+Najgorzej wygląda sytuacja w środkowej, wschodniej i północnej Afryce, 
+gdzie zadłużenie zewnętrzne wynosi ok. 100%, a przychód jest ujemny.
+Niewiele lepiej wygląda sytuacja w okolicach Sahary.
+W Europie i Azji Środkowej zadłużenie jest prawie zerowe, aczkolwiek
+przychód wynosi mniej niż 10%. Tylko w południowej Azji dochód jest
+większy od zadłużenia o ponad 10%.
+
+Napływ długu netto jest ujemny. Pod tym względem widać nagłe zmiany 
+w roku 2015 i 2022.
+
+Napływ długu światowego jest w dużej mierze zależny od długu Chin.
+
+2 - 3 krotnie niższa inflacja niż na początku roku pokazuje też
+pewną destabilizację.
+
+Banki przechodzą kryzys.
+
+Źródła:
+- https://pl.wikipedia.org/wiki/Bank_%C5%9Awiatowy
+- https://openknowledge.worldbank.org/entities/publication/02225002-395f-464a-8e13-2acfca05e8f0
+- https://tradingeconomics.com/poland/inflation-cpi

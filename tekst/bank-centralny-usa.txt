@@ -1,0 +1,13 @@
+Bank centralny USA
+
+Bank centralny USA jest ważnym bankiem w USA i w innych krajach.
+Jego saldo na początku 2022 roku było najwyższe od 20 lat.
+Obecnie trwa trend spadkowy, aczkolwiek jest bardzo wysokie
+i wynosi 7.73 biliona dolarów (7.73 trillion USD).
+
+Od 2020 roku saldo banku centralnego USA jest największe
+w historii. W przeciągu kilku miesięcy skoczyło z 4 do prawie
+8 biliona dolarów.
+
+Źródła:
+- https://tradingeconomics.com/united-states/central-bank-balance-sheet
