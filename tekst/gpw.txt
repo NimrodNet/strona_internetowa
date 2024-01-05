@@ -1,0 +1,13 @@
+Giełda papierów wartościowych
+
+Giełda papierów wartościowych, w skrócie GPW jest miejscem, w którym
+możemy zobaczyć wartość rynkową firm, spółek, które do niej należą.
+
+Część polskich banków należy do GPW. Są to m.in. Alior Bank SA,BNP Papibas 
+czy Bank Ochrony Środowiska SA. Są to banki, należące do indeksu WIG-banki
+GPW.
+
+Źródła:
+- https://pl.wikipedia.org/wiki/Gie%C5%82da_papier%C3%B3w_warto%C5%9Bciowych
+- https://gpwbenchmark.pl/karta-indeksu?isin=PL9999999904
+- https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=WIG-BANKI
