@@ -1,0 +1,22 @@
+Notowania WIG-banki
+
+Wartość: 10 861,74
+Zmiana: -0.61%
+
+ALIOR, kurs: 74,5000, zmiana: 0.43%.
+BNP Paribas, kurs - 81,8000, zmiana: -1.21%.
+Bank Ochrony Środowiska, kurs: 10,8000, zmiana: -1.46%.
+Getin Bank, kurs: 0,5700, zmiana: -3.06%.
+Bank Handlowy, kurs: 101,0000, zmiana: 0.2000%.
+ING Bank Śląski, kurs: 248,000, zmiana: -3.88%.
+mBank, kurs: 525,6000, zmiana: -0.27%.
+Bank Millennium, kurs: 8.3000, zmiana: 0%.
+Bank PKO SA, kurs: 147.5000, zmiana: -1.54%.
+PKO BP, kurs: 49.7400, zmiana: 0%.
+Santander Bank Polska, kurs: 484.8000, zmiana: 0.21%.
+Banco Santander SA, kurs: 17.000, zmiana: 0.6%.
+UniCredito, kurs: 112.0000, zmiana: 1.86%.
+
+Nie ma zmian w bankach Bank Millennium i PKO BP.
+
+Źródło: https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=WIG-BANKI

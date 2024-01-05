@@ -1,0 +1,41 @@
+GPW, a banki
+
+Na Giełdzie Papierów Wartościowych znajduje się wiele spółek, firm
+oraz m.in. banków. Są to Alior Bank SA, BNP Paribas Bank Polska SA,
+Bank Ochrony Środowiska SA, Getin Holding SA, Bank Handlowy w Warszawie,
+ING Bank Śląski SA, mBank S.A., Bank Millennium SA, Bank PKO SA, 
+PKO BP SA, Banco Santander S.A. oraz UniCredito.
+
+Każdy bank posiada swoją nazwę na giełdzie oraz tzw. ticker, czyli 
+3-literowy kod. Banki,  nazwy oraz nazwy na GPW:
+- Alior Bank SA, ALIOR, ALR
+- BNP Paribas Bank Polska SA, BNPPPL, BNP
+- Bank Ochrony Środowiska SA, BOS, BOS
+- Getin Holding SA, GETIN, GTN
+- Bank Handlowy w Warszawie, HANDLOWY, BHW
+- ING Bank Śląski SA, INGBSK, ING
+- mBank S.A., MBANK, MBK
+- Bank Millennium SA, MILLENNIUM, MIL
+- Bank PKO SA, PEKAO, PEO
+- PKO BP SA, PKOBP, PKO
+- Banco Santander S.A., SANPL, SPL
+- UniCredito, UNICREDIT, UCG
+
+Każdy instrument bankowy posiada kod ISIN, ang. International Securities
+Identification Number, który identyfikuje go na giełdzie.
+Pakiet to udział akcji w indeksie.
+
+Portfel akcji to wszystkie akcje w indeksie.
+
+PDA jest to prawo do akcji, czyli możliwość otrzymania akcji
+w przypadku nowej emisji spółki.
+
+Spread jest to różnica między kursem, czyli ceną sprzedaży i kupna
+akcji. W niektórych przypadkach różnica 12% to 1pp, czyli 1 punkt procentowy, 
+6% to 0.5 pp.
+
+Źródła:
+- https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=WIG-BANKI
+- https://gpwbenchmark.pl/pub/BENCHMARK/files/indeksy-gieldowe-regulacje/pl/Regulamin_Rodziny_Indeksow_Gieldowych_4.09.2023.pdf
+- https://businessinsider.com.pl/gospodarka/makroekonomia/isin-co-oznacza-ten-skrot/w897wm5
+- https://pl.wikipedia.org/wiki/Prawo_do_akcji
