@@ -8,3 +8,7 @@ position: absolute;
 bottom: 8px;
 left: 16px;
 }
+
+.szerokosc-100px {
+width: 100px;
+}
