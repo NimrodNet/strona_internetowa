@@ -1,0 +1,19 @@
+GPW 25.01.2024 r.
+
+Kursy na Giełdzie Papierów Wartościowych wyglądają następująco:
+- Alior, 72
+- BNP Paribas, 81.2
+- Bank Ochrony Środowiska 10.12
+- Getin 0.56
+- Bank Handlowy 99
+- ING Bank Śląski 259.5
+- mBank 498.2
+- Bank Millennium 7.7
+- PEKAO 146.45
+- PKO BP 48.75
+- Santander Bank Polska 460.8
+- Santander 16
+- Unicredit 116.6
+
+Źródło: https://www.bankier.pl/inwestowanie/profile/quote.html?symbol=WIG-BANKI#
+

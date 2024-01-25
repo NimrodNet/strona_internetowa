@@ -83,7 +83,7 @@ class PyStrona:
 </nawigacja>
 
 <artykul>
-    <img src="../grafika/rrso_artykul.jpeg" alt="RRSO"/>
+    <img src="../grafika/karta-kredytowa.jpeg" alt="Karta kredytowa"/>
     <tytul>""" + self.zwroc_tytul() + """</tytul>
     <tekst>
         """ + tekst + """
