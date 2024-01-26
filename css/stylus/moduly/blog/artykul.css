@@ -52,3 +52,8 @@ artykul ul.linki-zwrotne img {
 width: 120px; 
 height: auto;
 }
+
+artykul video {
+  max-width: 100%;
+  height: auto;
+}
