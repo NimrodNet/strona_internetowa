@@ -1,0 +1,12 @@
+Analityka Bankowa
+
+Analityka Bankowa jest ciekawym rozwiązaniem z punktu widzenia banków,
+poszukujących nowych klientów czy utrzymujących obecnych oraz klientów,
+którzy szukają dobrych dla nich ofert bankowych.
+
+Przyjrzenie się sytuacji bankowej zmiejsza ryzyko niewłaściwych decyzji,
+daje komfort wybrania odpowiedniej oferty, pomaga zrozumieć potrzeby
+osób, które świadczą czy korzystają z usług banku, itd.
+
+Źródła:
+- https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Deloitte-Analytics/dttl-analytics-us-ba-bankinganalytics3minguide.pdf
