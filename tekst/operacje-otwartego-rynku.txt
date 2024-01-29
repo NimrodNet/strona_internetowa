@@ -1,0 +1,38 @@
+Operacje otwartego rynku
+
+Operacje otwartego rynku to transakcje, wykonywane między bankiem
+centralnym i komercyjnymi. 
+
+Wszystkie transakcje, w tym kupna i sprzedaży, są rozpoczynane przez
+bank centralny. Bank centralny handluje wekslami czy obligacjami.
+
+Operacje, prowadzone przez Narodowy Bank Polski:
+- podstawowe, standardowe - emisja i skup bonów pieniężnych;
+- dorastające
+- strukturalne
+
+W przypadku tzw. bezwarunkowych operacji otwartego rynku, handel, czyli
+kupno, ang. outright purchases i sprzedaż, ang. outright sales, 
+są wykonywane natychmiastowo, bez dodatkowych zastrzeżeń.
+
+Warunkowe operacje otwartego rynku to transakcje, które są wykonywane
+na określonych warunkach, a dokładnie na zasadach odkupu. Bank centralny
+odkupuje je od banków komercyjnych i sprzedaje we wcześniej ustalonym
+terminie. Handel przebiega na zasadach kredytu krótkoterminowego, czyli
+podmiot sprzedający udziela kredytu. Rozróżnia się 2 rodzaje transakcji tego typu:
+- repo, ang repurchase agreements - bank centralny kupuje papiery
+wartościowe od banków komercyjnych, a następnie sprzedaje w wyznaczonym
+terminie
+- odwrócone repo, ang reverse repurchase agreements - bank centralny sprzedaje
+papiery wartościowe bankom komercyjnym i odkupuje je w wyznaczonym terminie
+
+Operacje otwartego rynku są bardzo skuteczne. Pomagają w rozwoju handlu
+pomiędzy bankami, co jest niezbędne do utrzymania wartości weksli
+i nie tylko. Są elastyczne, pomagają bankowi centralnemu w regulacji 
+sektora bankowego, jego płynności, czy jak można wywnioskować, wypłacalności.
+
+Ich skuteczność zależy od zainteresowania ofertami banku centralnego
+przez banki komercyjne.
+
+Źródła:
+- https://mfiles.pl/pl/index.php/Operacje_otwartego_rynku
