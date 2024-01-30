@@ -1,0 +1,40 @@
+Obligacje
+
+Obligacje to papiery wartościowe, które wskazują na dług podmiotu, który
+je zaciąga.
+
+Można wyróżnić tu dwa podmioty, emitenta, który dokonuje emisji obligacji,
+czyli daje je obligatariuszowi, osobie, która zaciąga obligacje.
+Emitent ma obowiązek spłaty obligacji obligatariuszowi.
+
+Obligacje są więc dłużnym instrumentem finansowym. Można je odsprzedawać
+na określonych zasadach, jeżeli chodzi o zbywalność.
+
+Można powiedzieć, że obligacje to odwrócony kredyt bankowy, który zaciąga
+podmiot wystawiający je u podmiotu, któremu je przekazuje.
+
+Rodzaje obligacji:
+- skarbowe - są emitowane przez rząd
+- korporacyjne - są emitowane przez przedsiębiorstwa, korporacje
+- komunalne - emitowane przez Jednostki Samorządu Terytorialnego,
+czyli np. gminy, powiaty. Posiadaczą mogą przysługiwać ulgi podatkowe
+- hipoteczne
+
+Obligacje są zawierane na określony czas. Zakończenie spłaty obligacji
+to termin zapadalności. Pierwotny termin zapadalności jest liczony
+od momentu emisji, czyli wydania do momentu wykupu.
+
+Wartość obligacji jest nazywana wartością nominalną, ang. face value, FV.
+Zazwyczaj jest to okrągła suma 100 zł, 1000 zł.
+
+Podczas spłaty obligacji mogą wystąpić odsetki, inaczej kupon. 
+
+Funkcje obligacji:
+- pożyczkowa - sprzedaż jako pożyczka bankowa
+- lokalizacyjna
+- płatnicza - możliwość płacenia obligacjami
+- obiegowa - przeniesienie na inny podmiot
+- gwarancyjna - gwarancja realizacji
+
+Źródła:
+- https://mfiles.pl/pl/index.php/Obligacje

@@ -1,0 +1,7 @@
+Polityki:
+- prywatności
+- bezpieczeństwa
+* danych
+* serwera
+- kompresja CSS, HTML, grafiki, itd.
+- udostępniania danych
