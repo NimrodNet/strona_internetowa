@@ -1,0 +1,21 @@
+Podsumowanie miesiąca
+
+Podsumowując styczeń 2024 r. można zobaczyć, że doszło trochę nowych rzeczy.
+Zacząłem wdrażać politykę optymalizacyjną po to, żeby informacje
+odnośnie bankowości doszły do większej liczby osób. Tak więc tematyka
+bankowości stale się rozwija.
+
+Pod koniec grudnia 2023 roku i w styczniu 2024 roku rozpocząłem wdrażanie
+polityki bezpieczeństwa. Bezpieczeństwo użytkowników jest podstawą.
+
+Wdrożyłem też aplikację, która usprawnia korzystanie ze strony, dodając
+automatycznie wpisy z pliku tekstowego do pliku html i na stronę główną.
+Jest to przydatne, ponieważ nie dodaję treści w standardowym systemie
+CMS typu Wordpress czy Joomla, ale w plikach statycznych strony.
+Jest to również optymalizacja prędkości wyświetlania.
+
+Parę rzeczy dodałem też na media społecznościowe.
+
+Dodałem też pierwszy film na stronie ;)
+
+Tak więc parę zmian weszło w życie. No i nic, trzeba lecieć dalej.

@@ -1,0 +1,19 @@
+Konto bankowe
+
+Konto bankowe jest to przestrzeń, wydzielona przez bank dla jego posiadacza.
+
+Konto bankowe jest własnością banku, a klient, czyli osoba, zarejestrowana
+w banku otrzymuje przestrzeń, w której znajdują się różne informacje,
+m.in. kwota, jaką klient przechowuje i zarządza w banku, transakcje,
+umowy, itd.
+
+Konto bankowe posiada właściciela, numer, na który można przelewać pieniądze, 
+stan. Na koncie bankowym użytkownik ma możliwość korzystania z różnych
+usług, jak przelew, zaciąganie kredytów, ale też sprawdzanie historii
+transakcji i inne, jak karty płatnicze, itd.
+
+Konto bankowe można obsługiwać przez Internet lub stacjonarnie w oddziale
+banku.
+
+Źródła:
+- https://en.wikipedia.org/wiki/Bank_account

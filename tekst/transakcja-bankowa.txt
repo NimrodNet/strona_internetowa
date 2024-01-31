@@ -1,0 +1,33 @@
+Transakcja bankowa
+
+Transakcja bankowa jest to zmiana stanu magazynu pieniężnego banku, 
+czyli stanu konta poprzez przeniesienie części jego wartości
+do innego magazynu.
+
+Rodzaje transakcji:
+- przelew - przesłanie pewnej kwoty z jednego konta bankowego na inne
+- wpłata - zasilenie konta bankowego, zwiększając jego stan
+- wypłata - zmniejszenie stanu konta poprzez wypłatę części kwoty
+- zakup - kupienie przez internet lub stancjonalnie dowolnej rzeczy
+
+Podział ze względu na rodzaj banku:
+- wewnętrzne - przelew pieniężny wewnątrz danego banku na ten sam
+numer bankowy lub inny
+- zewnętrzne - przelew do innego banku
+
+Podział ze względu na sposób wykonania:
+- na zlecenie - administrator konta sam zleca wykonanie transakcji
+- automatycznie - wykonanie transakcji bez udziału administratora konta
+
+Transakcje są objęte czasem, mają swój początek i koniec. Najczęściej 
+dokonuje się ich z własnego adresu, czyli rachunku bankowego, przypisanego
+do konta bankowego, czyli części, którą bank wydziela dla nas.
+
+Transakcji można dokonywać dowolną drogą, przez Internet, stacjonarnie, itd.
+
+Transakcji dokonuje się na zasadach, obowiązujących w danym banku.
+
+Źródła:
+- https://pl.wikipedia.org/wiki/Transakcja_(finanse)
+- https://mfiles.pl/pl/index.php/Transakcje
+- https://www.mbank.pl/indywidualny/uslugi/uslugi/slowniczek-pojec/

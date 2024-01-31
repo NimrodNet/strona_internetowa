@@ -1,0 +1,22 @@
+Saldo
+
+Saldo bankowe jest to kwota rachunku bankowego.
+
+Posiada swój stan, historię.
+
+W zależności od dostępu można je podzielić na dostępne w:
+- części
+- całości
+
+Saldo można podzielić na:
+- dodatnie - zwykła kwota rachunku bankowego
+- ujemne - debet, klient musi spłacić część należności bankowi
+
+Użytkownik rachunku może wydzielić część salda jako niedostępną
+na zasadach banku, np. w przypadku transakcji kartą płatniczą.
+
+Saldo bankowe jest dostępne z poziomu konta właściciela rachunku bankowego.
+
+Źródła:
+- https://pl.wikipedia.org/wiki/Saldo
+- https://pl.wikipedia.org/wiki/Debet_(bankowo%C5%9B%C4%87)
