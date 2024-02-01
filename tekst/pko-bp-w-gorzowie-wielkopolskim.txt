@@ -1,0 +1,29 @@
+Oddziały i bankomaty PKO BP w Gorzowie Wielkopolskim
+
+Oddziały i bankomaty PKO Bank Polski w Gorzowie Wielkopolskim.
+
+Oddziały:
+- Oddział 1, ul. Mickiewicza 7A, 66-400 Gorzów Wielkopolski
+- Oddział 1, ul. Sikorskiego 3/4/Kasa w Urzędzie Miasta, 
+66-400 Gorzów Wielkopolski
+- Oddział 1, ul. Myśliborska, 66-400 Gorzów Wielkopolski
+- Oddział 2, ul. Górczyńska 21, 66-400 Gorzów Wielkopolski
+- Oddział 3, ul. Sikorskiego 130, 66-400 Gorzów Wielkopolski
+- Oddział 5, ul. Matejki 55, 66-400 Gorzów Wielkopolski
+
+Bankomaty:
+- ul. Mickiewicza 7a, 66-400 Gorzów Wielkopolski
+- ul. Sikorskiego 130, 66-414 Gorzów Wielkopolski
+- ul. Marcinkowskiego 90, 66-400 Gorzów Wielkopolski
+- ul. Matejki 46, 66-400 Gorzów Wielkopolski
+- ul. Matejki 55, 66-400 Gorzów Wielkopolski
+- ul. Przemysłowa 2, 66-400 Gorzów Wielkopolski
+- ul. Pomorska 71, 66-400 Gorzów Wielkopolski
+- ul. Konstytucji 3-go Maja 102, 66-400 Gorzów Wielkopolski
+- ul. Słoneczna 63a, 66-400 Gorzów Wielkopolski
+- ul. Górczyńska 21, 66-414 Gorzów Wielkopolski
+- ul. Górczyńska 23, 66-414 Gorzów Wielkopolski
+- ul. Kombatantów 2, 70-783 Gorzów Wielkopolski
+
+Źródło:
+- https://www.pkobp.pl/poi/

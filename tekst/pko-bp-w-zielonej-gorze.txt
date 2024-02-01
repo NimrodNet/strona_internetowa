@@ -1,0 +1,27 @@
+Oddziały PKO Bank Polski w Zielonej Górze
+
+Oddziały i bankomaty PKO Bank Polski w Zielonej Górze.
+
+Bankomaty:
+- ul. Bohaterów Westerplatte 19, 19A, 65-034 Zielona Góra
+- ul. Bohaterów Westerplatte 21a, 65-001 Zielona Góra
+- ul. Żeromskiego 2, 65-066 Zielona Góra
+- ul. Dworcowa 27, 65-019 Zielona Góra
+- ul. Podgórna 22, 65-213 Zielona Góra
+- ul. Powstańców Warszawy 7, 65-807 Zielona Góra
+- ul. Stefana Wyszyńskiego 40, 65-536 Zielona Góra
+- ul. Kraljevska 7, 65-945 Zielona Góra
+- ul. Stefana Wyszyńskiego 18, 65-536 Zielona Góra
+- ul. Agrestowa 5 a/11, 65-780 Zielona Góra
+- ul. Stefana Batorego 81, 65-735 Zielona Góra
+- os. Pomorskie 5b, 65-548 Zielona Góra
+
+Oddziały:
+- Oddział 1, ul. Żeromskiego 2, 65-066 Zielona Góra
+- Oddział 1, ul. Podgórna 22, 65-424 Zielona Góra
+- Oddział 2, ul. Powstańców Warszawy 7, 65-807 Zielona Góra
+- Oddział 5, ul. Bohaterów Westerplatte 19/19A, 65-034 Zielona Góra
+- Oddział 11, ul. Stefana Batorego 81, 65-735 Zielona Góra
+
+Źródło:
+- https://www.pkobp.pl/poi/
