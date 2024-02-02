@@ -1,0 +1,9 @@
+Plik .htaccess
+
+Plik .htaccess jest bardzo ważny z punktu widzenia bezpieczeństwa.
+Jeżeli chodzi o tą stronę, odnoszącą się do banków, również
+posiada taki plik.
+
+W Internecie jest dużo porad odnośnie utworzenia takiego pliku.
+Po jego utworzeniu należy wczytać go na serwer strony internetowej,
+można go umieścić w katalogu głównym.

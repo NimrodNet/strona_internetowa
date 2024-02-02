@@ -1,7 +1,10 @@
 class Obraz:
 
     def __init__(self, instancja, szerokosc, wysokosc):
-        self.inicjuj(instancja, szerokosc, wysokosc)
+        try:
+            self.inicjuj(instancja, szerokosc, wysokosc)
+        except:
+            self.komunikat("__init__()", "Nie udało się zainicjować obrazu.")
 
     def inicjuj(self, instancja, szerokosc, wysokosc):
         try:

@@ -1,4 +1,6 @@
 # Optymalizacja
+# Plik .htaccess, zabezpieczający stronę internetową przed różnego
+# rodzaju zagrożeniami.
 
 ##### 1 Month for most static resources
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
