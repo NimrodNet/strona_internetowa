@@ -1,4 +1,4 @@
-class Obraz:
+class Okno:
 
     def __init__(self, instancja, szerokosc, wysokosc):
         try:
@@ -22,9 +22,23 @@ class Obraz:
             instancja = self.zwroc_instancje()
             wysokosc = self.zwroc_wysokosc()
             szerokosc = self.zwroc_szerokosc()
-            instancja.display.set_mode([wysokosc, szerokosc])
+            wyswietlacz = instancja.display.set_mode([wysokosc, szerokosc])
+            self.ustaw_wyswietlacz(wyswietlacz)
         except:
             self.komunikat("ustaw_rozdzielczosc()", "Nie udało się ustawić rozdzielczości.")
+
+    def ustaw_wyswietlacz(self, wyswietlacz):
+        try:
+            self.wyswietlacz = wyswietlacz
+        except:
+            self.komunikat("ustaw_wyswietlacz()", "Nie udało się ustawić wyświetlacza")
+
+    def zwroc_wyswietlacz(self):
+        try:
+            return self.wyswietlacz
+        except:
+            self.komunikat("zwroc_wyswietlacz()", "Nie można zwrócić wyświetlacza.")
+            return False
 
     def ustaw_instancje(self, instancja):
         try:
@@ -43,6 +57,20 @@ class Obraz:
             self.wysokosc = wysokosc
         except:
             self.komunikat("ustaw_wysokosc(wysokosc)", "Nie udało się ustawić wysokości.")
+
+    def ustaw_tlo(self, tlo):
+        try:
+            self.tlo = tlo
+            wyswietlacz = self.zwroc_wyswietlacz()
+            wyswietlacz.fill(tlo)
+        except:
+            self.komunikat("ustaw_tlo(tlo)", "Nie udało się ustawić tła.")
+
+    def zwroc_tlo(self):
+        try:
+            return self.tlo
+        except:
+            self.komunikat("ustaw_tlo(tlo)", "Nie udało się zwrócić tła.")
 
     def zwroc_instancje(self):
         try:

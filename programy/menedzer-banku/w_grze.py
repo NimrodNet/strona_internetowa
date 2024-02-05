@@ -1,6 +1,6 @@
 class W_grze:
 
-    def uruchom(self, instancja):
+    def uruchom(self, instancja, okno):
         pygame = instancja
         uruchomiono = True
         while uruchomiono:
@@ -8,4 +8,5 @@ class W_grze:
                 graczNaciskaCzerwonyX = zdarzenie.type == pygame.QUIT
                 if graczNaciskaCzerwonyX:
                     uruchomiono = False
+            okno.ustaw_tlo((255, 255, 255))
             pygame.display.flip()
