@@ -1,4 +1,5 @@
 import pygame
+import pygame_gui
 from okno import *
 from wyjdz import *
 from w_grze import *
