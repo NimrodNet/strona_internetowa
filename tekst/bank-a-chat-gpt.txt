@@ -1,0 +1,32 @@
+Bank a Chat GPT
+
+Dziś jest 9 lutego 2024 r. Pierwszy raz w swojej historii użyłem... Chata GPT :D
+
+Zapytałem się tego czata o to, czym jest bankowość. Według niego na bankowość
+składają się innowacje technologiczne, regulacje prawne, trendy konsumenckie, 
+globalne wyzwania ekonomiczne czy zarządzanie pieniędzmi.
+
+Odpowiedź czatu jest niewyczerpująca, aczkolwiek niektórzy uznaliby to za czepianie
+się czata :)
+
+Po części zgodzę się, że są to ważne przestrzenie, aczkolwiek być może brakuje
+zarządzania kapitałem, które jest podstawowe.
+
+Ogólnie sposób przeczesywania internetu, pobierania informacji, przetwarzania
+i wyświetlania jest dosyć ciekawy.
+
+Na odpowiedź odnośnie tego czym jest bank, ChatGPT odpowiedział, że bank to
+instytucja finansowa, oferująca szereg usług związanych z gromadzeniem, zarządzaniem
+i udostępnianiem kapitału oraz świadczeniem usług finansowych.
+
+Na pytanie w jaką stronę podążają banki, czat odpowiedział, że w stronę cyfryzacji
+przy zachowaniu bezpieczeństwa oraz wszelkich regulacji prawnych.
+
+Na temat standardowych form bankowych, jak np. bankomaty, czat odpowiedział, iż
+mają one znaczącą rolę, aczkolwiek mogą się zmieniać pod wpływem cyfryzacji.
+
+ChatGPT ma ciekawe spostrzeżenia. Z jednej strony zachowuje bardzo dużą poprawność
+i nawet dobrą wiarygodność, z drugiej odpowiedzi są podobne do siebie. Jest to narzekanie,
+aczkolwiek coś w tym może jest.
+
+Link do rozmowy: https://chat.openai.com/share/47297d89-dd3e-4f4f-9c4d-7be97929cc75

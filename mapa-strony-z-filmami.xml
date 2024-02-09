@@ -130,6 +130,47 @@
      </video:video>
    </url>
 
-
+   <url>
+     <loc>https://www.wprzeszlosci.com/artykuly/strona-internetowa.html</loc>
+     <video:video>
+       <video:thumbnail_loc>https://www.wprzeszlosci.com/grafika/film.jpeg</video:thumbnail_loc>
+       <video:title>Strona internetowa</video:title>
+       <video:description>
+         Film, przedstawiający link do strony internetowej.
+       </video:description>
+       <video:content_loc>
+         https://www.wprzeszlosci.com/filmy/strona-internetowa.mp4
+       </video:content_loc>
+       <video:player_loc>
+         https://www.wprzeszlosci.com/filmy/strona-internetowa.mp4
+       </video:player_loc>
+       <video:duration>600</video:duration>
+       <video:expiration_date>2024-02-09</video:expiration_date>
+       <video:rating>5.0</video:rating>
+       <video:view_count>12345</video:view_count>
+       <video:publication_date>2024-02-09</video:publication_date>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:restriction relationship="allow">PL IE GB US CA AU</video:restriction>
+       <video:price currency="EUR">0.00</video:price>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader
+         info="https://www.wprzeszlosci.com/o-nas.html">Filip
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+     <video:video>
+       <video:thumbnail_loc>https://www.wprzeszlosci.com/grafika/film.jpeg</video:thumbnail_loc>
+       <video:title>Strona internetowa</video:title>
+       <video:description>
+         Film, przedstawiający link do strony internetowej.
+       </video:description>
+       <video:content_loc>
+         https://www.wprzeszlosci.com/filmy/strona-internetowa.mp4
+       </video:content_loc>
+       <video:player_loc>
+         https://www.wprzeszlosci.com/filmy/strona-internetowa.mp4
+       </video:player_loc>
+     </video:video>
+   </url>
 
 </urlset>
