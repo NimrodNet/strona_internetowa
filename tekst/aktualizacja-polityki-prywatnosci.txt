@@ -1,0 +1,7 @@
+Zmiany w polityce prywatności
+
+Zauktualizowano politykę prywatności.
+
+Dodano listę punktową dla elementów wymienianych jeden pod drugim, dzięki czemu
+polityka jest czytelniejsza. Dodano też odniesienie, przenoszące do oryginalnych
+dokumentów RODO na stronie GIODO.

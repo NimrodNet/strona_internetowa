@@ -1,0 +1,6 @@
+Zmiany w polityce prywatności
+
+Zaktualizowano politykę prywatności.
+
+Dodano listę punktową dla elementów wymienianych jeden pod drugim, co zwiększyło
+czytelność. Dodano też odniesienie, które przenosi do strony UODO.
