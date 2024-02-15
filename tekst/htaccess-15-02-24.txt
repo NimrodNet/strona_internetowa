@@ -1,0 +1,11 @@
+Plik .htaccess
+
+Zaktualizowano plik .htaccess.
+
+Plik .htaccess jest odpowiedzialny za zabezpieczenia czy prędkość
+działania strony internetowej.
+
+Dziś dodaliśmy nowe wiersze do pliku, m.in. bardziej zaawansowaną
+ochronę przed botami, reklamiarzami, filtry i inne.
+
+Plik można pobrać ze strony https://www.wprzeszlosci.com/.htaccess.

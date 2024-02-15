@@ -3,6 +3,69 @@
 # rodzaju zagrożeniami. Zawiera również wstawki, przyspieszające
 # działanie strony internetowej.
 
+RewriteEngine On
+RewriteCond %{QUERY_STRING} (src=) [NC]
+RewriteCond %{QUERY_STRING} ((http(s)?)://)? [NC]
+RewriteCond %{QUERY_STRING} !((.+\.)?(wprzeszlosci\.com)) [NC]
+RewriteRule .? / [F,L]
+
+RewriteMap blacklist txt:D:/path/to/your/blacklist.txt [NC]
+# Or on Linux: RewriteMap blacklist txt:/path/to/your/blacklist [NC]
+
+RewriteCond %{REMOTE_ADDR} (.*)
+RewriteCond ${blacklist:%1|NOT_FOUND} !NOT_FOUND
+RewriteRule .? - [F,L]
+
+# From the standard Joomla .htaccess file, as reference
+# 
+# Block out any script trying to base64_encode data within the URL.
+RewriteCond %{QUERY_STRING} base64_encode[^(]*([^)]*) [OR]
+# Block out any script that includes a <script> tag in URL.
+RewriteCond %{QUERY_STRING} (< |%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL.
+RewriteCond %{QUERY_STRING} GLOBALS(=|[|%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL.
+RewriteCond %{QUERY_STRING} _REQUEST(=|[|%[0-9A-Z]{0,2})
+# Return 403 Forbidden header and show the content of the root homepage
+RewriteRule .* index.php [F]
+
+# Deny access to l_backuptoster.php / l_backuptoster_backup.php
+#  (PHP backdoor)
+RewriteEngine On
+RewriteCond %{REQUEST_URI} (^/l_backuptoster.php) [NC]
+
+# or match any location
+# RewriteCond %{REQUEST_URI} (l_backuptoster.php) [NC]
+# or expanded
+# RewriteCond %{REQUEST_URI} l_backuptoster(_backup)?.php [NC]
+RewriteRule .? - [F,L]
+
+# block spambots (unverified!)
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (?:Alexibot|Art-Online|asterias|BackDoorbot|Black.Hole|
+BlackWidow|BlowFish|botALot|BuiltbotTough|Bullseye|BunnySlippers|Cegbfeieh|Cheesebot|CherryPicker|ChinaClaw|CopyRightCheck|cosmos|Crescent|Custo|DISCo|DittoSpyder|DownloadsDemon|eCatch|EirGrabber|EmailCollector|EmailSiphon|EmailWolf|EroCrawler|ExpresssWebPictures|ExtractorPro|EyeNetIE|FlashGet|Foobot|FrontPage|GetRight|GetWeb!|Go-Ahead-Got-It|Go!Zilla|GrabNet|Grafula|Harvest|hloader|HMView|httplib|HTTrack|humanlinks|ImagesStripper|ImagesSucker|IndysLibrary|InfonaviRobot|InterGET|InternetsNinja|Jennybot|JetCar|JOCsWebsSpider|Kenjin.Spider|Keyword.Density|larbin|LeechFTP|Lexibot|libWeb/clsHTTP|LinkextractorPro|LinkScan/8.1a.Unix|LinkWalker|lwp-trivial|MasssDownloader|Mata.Hari|Microsoft.URL|MIDownstool|MIIxpc|Mister.PiX|MistersPiX|moget|Mozilla/3.Mozilla/2.01|Mozilla.*NEWT|Navroad|NearSite|NetAnts|NetMechanic|NetSpider|NetsVampire|NetZIP|NICErsPRO|NPbot|Octopus|Offline.Explorer|OfflinesExplorer|OfflinesNavigator|Openfind|Pagerabber|PapasFoto|pavuk|pcBrowser|ProgramsSharewares1|ProPowerbot/2.14|ProWebWalker|ProWebWalker|psbot/0.1|QueryN.Metasearch|ReGet|RepoMonkey|RMA|SiteSnagger|SlySearch|SmartDownload|Spankbot|spanner|Superbot|SuperHTTP|Surfbot|suzuran|Szukacz/1.4|tAkeOut|Teleport|TeleportsPro|Telesoft|The.Intraformant|TheNomad|TightTwatbot|Titan|toCrawl/UrlDispatcher|toCrawl/UrlDispatcher|True_Robot|turingos|Turnitinbot/1.5|URLy.Warning|VCI|VoidEYE|WebAuto|WebBandit|WebCopier|WebEMailExtrac.*|WebEnhancer|WebFetch|WebGosIS|Web.Image.Collector|WebsImagesCollector|WebLeacher|WebmasterWorldForumbot|WebReaper|WebSauger|WebsiteseXtractor|Website.Quester|WebsitesQuester|Webster.Pro|WebStripper|WebsSucker|WebWhacker|WebZip|Wget|Widow|[Ww]eb[Bb]andit|WWW-Collector-E|WWWOFFLE|XaldonsWebSpider|Xenu's|Zeus) [NC]
+
+# Prohibit and block the request:
+RewriteRule .? - [F,L]
+
+# Secure your website from some known SQL Injectie attacks:
+# Enable the rewrite engine
+RewriteEngine On
+
+# continue with SQL functions
+# this works only on HTTP GET, *not* POST body
+RewriteCond %{THE_REQUEST} (?:limit|union|select|concat|1==1|like|drop|\#|--) [NC]
+RewriteRule .? - [F,L]
+
+# Use mod_security to access the POST body
+
+# Secure Magento's local.xml file which contains MySQL database credentials
+# See http://www.saotn.org/magento-appetclocal-xml-beveiliging/
+# 
+RewriteEngine On
+RewriteCond %{REQUEST_URI} app/etc/local.xml$ [NC]
+RewriteRule .? - [F,L]
+
 #!/bin/sh
 # FIND FAKE GOOGLEBOTS AND BINGBOTS FROM APACHE SERVER LOG FILES
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
