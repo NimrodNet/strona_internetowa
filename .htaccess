@@ -3,6 +3,9 @@
 # rodzaju zagrożeniami. Zawiera również wstawki, przyspieszające
 # działanie strony internetowej.
 
+# Włączenie historii protokołu SSL na serwerze
+CustomLog "logs/ssl_request_log" "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+
 # Przełączenie szyfrowania silnika SSL
 <VirtualHost _default_:443>
     SSLProxyEngine on
