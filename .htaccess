@@ -3,6 +3,50 @@
 # rodzaju zagrożeniami. Zawiera również wstawki, przyspieszające
 # działanie strony internetowej.
 
+# Zdalny protokół IP
+Listen 80
+<VirtualHost *:80>
+    ServerName www.wprzeszlosci.com
+    RemoteIPProxyProtocol On
+
+    #Requests to this virtual host must have a PROXY protocol
+    # header provided. If it is missing, the connection will
+    # be aborted
+</VirtualHost>
+
+Listen 8080
+<VirtualHost *:8080>
+    ServerName www.wprzeszlosci.com
+    RemoteIPProxyProtocol On
+    RemoteIPProxyProtocolExceptions 127.0.0.1 10.0.0.0/8
+
+    #Requests to this virtual host must have a PROXY protocol
+    # header provided. If it is missing, the connection will
+    # be aborted except when coming from localhost or the
+    # 10.x.x.x RFC1918 range
+</VirtualHost>
+
+#Zabezpieczenia mod_security
+<IfModule mod_security.c>
+  SecRuleEngine On
+  SecRule REQUEST_METHOD "^(?:GET|HEAD|POST)$" \
+    "id:1234,phase:1,t:none,nolog,pass,ctl:ruleRemoveById=941100"
+</IfModule>
+
+# Limit rządań HTTP
+<IfModule mod_qos.c>
+  # Set a limit of 100 requests per second
+  QS_LimitRequestBody 102400
+  QS_SrvMaxConnPerIP 100
+</IfModule>
+
+# Wymaganie SSL
+Require ssl
+
+# Sprawdzanie SSL
+Header set X-SSL-PROTOCOL "expr=%{SSL_PROTOCOL}"
+Header set X-SSL-CIPHER "expr=%{SSL:SSL_CIPHER}"
+
 # Włączenie historii protokołu SSL na serwerze
 CustomLog "logs/ssl_request_log" "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
 
