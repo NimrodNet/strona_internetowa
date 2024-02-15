@@ -42734,3 +42734,14 @@ deny from 2402:e000:422:3b92:38df:42ff:1a4a:4a28
 deny from 2601:c4:ca84:3d70:dd82:851c:5fb2:caca
 deny from 2407:d000:403:df2d:1482:4caa:1c7:16e0
 deny from 2400:adc5:46f:a800:2c7e:1f0f:3204:1eb9
+deny from 172.172.104.187
+deny from 49.13.62.244
+deny from 2a06:98c0:3600::103
+deny from 52.27.181.182
+deny from 54.175.41.70
+deny from 51.91.125.229
+deny from 144.217.135.170
+deny from 8.210.8.100
+deny from 47.243.15.50
+deny from 51.38.113.118
+deny from 34.220.132.163
