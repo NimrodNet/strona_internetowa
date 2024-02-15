@@ -1311,7 +1311,10 @@ Disallow:/
 
 Sitemap: www.wprzeszlosci.com/mapa-strony.xml
 Sitemap: www.wprzeszlosci.com/mapa-strony-z-filmami.xml
+Sitemap: www.wprzeszlosci.com/mapa-strony-z-grafika.xml
 Sitemap: https://www.wprzeszlosci.com/mapa-strony.xml
 Sitemap: https://www.wprzeszlosci.com/mapa-strony-z-filmami.xml
+Sitemap: https://www.wprzeszlosci.com/mapa-strony-z-grafika.xml
 Sitemap: https://wprzeszlosci.com/mapa-strony.xml
 Sitemap: https://wprzeszlosci.com/mapa-strony-z-filmami.xml
+Sitemap: https://wprzeszlosci.com/mapa-strony-z-grafika.xml
