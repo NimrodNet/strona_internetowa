@@ -3,6 +3,12 @@
 # rodzaju zagrożeniami. Zawiera również wstawki, przyspieszające
 # działanie strony internetowej.
 
+# Przełączenie szyfrowania silnika SSL
+<VirtualHost _default_:443>
+    SSLProxyEngine on
+    #...
+</VirtualHost>
+
 # Start of disable server signature #
 ServerSignature Off
 # End of disable server signature #
