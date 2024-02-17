@@ -14,9 +14,8 @@ class PyStrony:
         pypliki = PyPliki(sciezka)
         rozszerzenia = {".txt"}
         pliki = pypliki.zwroc_pliki_z_rozszerzeniami(rozszerzenia)
-
         for plik in pliki:
-            wejscie = plik
+            wejscie = str(plik)
             pypliki.ustaw_sciezke(wejscie)
             nazwa = pypliki.zwroc_nazwe_pliku_bez_rozszerzenia()
             wyjscie = sciezka_wyjsciowa + nazwa + ".html"

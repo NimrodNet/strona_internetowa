@@ -1,0 +1,10 @@
+Contact: mailto:filiph343@gmail.com
+Contact: https://www.wprzeszlosci.com/kontakt.html
+Expires: 2034-02-14T23:00:00.000Z
+Encryption: https://www.wprzeszlosci.com/bezpieczenstwo/klucz-prywatny
+Acknowledgments: https://www.wprzeszlosci.com/artykuly/norma-bezpieczenstwa.html
+Preferred-Languages: pl, en
+Canonical: https://www.wprzeszlosci.com/bezpieczenstwo/norma-bezpieczenstwa.txt
+Policy: https://www.wprzeszlosci.com/artykuly/polityka-prywatnosci.html
+Hiring: https://www.wprzeszlosci.com/artykuly/norma-bezpieczenstwa.html
+CSAF: https://www.wprzeszlosci.com

@@ -1,0 +1,24 @@
+Wyłudzenie informacji
+
+Wyłudzenie informacji jest w sektorze bankowym bardzo popularne.
+
+Wyłudzenie, ang. Phishing, jest to metoda często używana w sektorze
+finansowym. Ofiarami mogą być pracownicy tego sektora jak i użytkownicy
+m.in. kont bankowych.
+
+Wyłudzenie polega na przekazaniu drogą telefoniczną, mailową lub inną
+informacji, które mają na celu wyłudzenie wrażliwych danych, typu
+imię, nazwisko, numer PESEL, hasło dostępu do konta bankowego, itd.
+w celu nieautoryzowanego dostępu do naszego konta bankowego, a w rezultacie
+korzystanie z niego bez naszej wiedzy ani zezwolenia.
+
+Jest to najczęściej wykonywany atak. Ok. połowa wszystkich ataków
+wyłudzających dane miała miejsce w sektorze finansowym.
+
+Jak się przed nim bronić? Przede wszystkim, jeżeli nie jesteśmy w stanie
+zweryfikować autora rozmowy to nie powinniśmy udostępniać mu prywatnych
+danych.
+
+Źródła:
+- https://rpms.pl/phishing-na-czym-polega-i-jak-mu-przeciwdzialac/
+- https://www.upguard.com/blog/biggest-cyber-threats-for-financial-services
