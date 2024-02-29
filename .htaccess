@@ -3,6 +3,10 @@
 # rodzaju zagrożeniami. Zawiera również wstawki, przyspieszające
 # działanie strony internetowej.
 
+# Blokowanie adresów IP
+deny from 40.71.16.109
+deny from 172.207.49.61
+
 RewriteEngine On
 RewriteCond %{QUERY_STRING} (src=) [NC]
 RewriteCond %{QUERY_STRING} ((http(s)?)://)? [NC]
