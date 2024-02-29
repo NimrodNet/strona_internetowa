@@ -1,0 +1,6 @@
+Nazwa banku Velo
+
+Bank Velo składa się z dwóch sylab, ve-lo.
+
+Jeżeli odwrócimy kolejność sylab to wyjdzie nam nazwa lo-ve,
+po polsku oznaczająca miłość.
