@@ -1,4 +1,5 @@
 import os
+from gamy.gamy_podstawowe import *
 
 class Pymuzyka:
 
@@ -21,6 +22,7 @@ class Pymuzyka:
         os.system(polecenie)
 
 muzyka = Pymuzyka()
-muzyka.ustaw_czestotliwosc("440")
+gamy = Gamy_podstawowe()
+muzyka.ustaw_czestotliwosc(gamy.A0())
 muzyka.ustaw_czas("5")
 muzyka.stworz_dzwiek("test.wav")
