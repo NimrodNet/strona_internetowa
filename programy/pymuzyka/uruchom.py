@@ -23,6 +23,6 @@ class Pymuzyka:
 
 muzyka = Pymuzyka()
 gamy = Gamy_podstawowe()
-muzyka.ustaw_czestotliwosc(gamy.A0())
+muzyka.ustaw_czestotliwosc(gamy.B4())
 muzyka.ustaw_czas("5")
 muzyka.stworz_dzwiek("test.wav")
