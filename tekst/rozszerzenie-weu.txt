@@ -1,0 +1,11 @@
+Rozszerzenie WEU
+
+Wprowadzam rozszerzenie WEU do obsługi plików tematyki bankowości.
+
+Rozszerzenie obsługuje formatowania, kompresję, typy plików, itd.
+
+Skrót WEU oznacza Wartość Edycji Uniwersalnej. Jest to rozszerzenie
+uniwersalne, pasujące do wielu rodzajów plików.
+
+Mogą być w nim zapisane pliki tekstowe, grafika, filmy i inne
+rodzaje danych.
