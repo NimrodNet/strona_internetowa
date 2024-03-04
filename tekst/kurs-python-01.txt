@@ -1,0 +1,59 @@
+Kurs Python dla bankowości
+
+Druga lekcja kursu Python dla bankowości.
+
+Dziś omówimy sobie czym jest język Python. 
+
+Język Python jest to język programowania. Stworzył go
+Guido van Rossum, holenderski programista.
+
+Jest to język wysokiego poziomu, w którym programista
+nie ingeruje w bardzo zagmatwane zagadnienia programowania.
+Jest orientowany obiektowo, czyli traktuje wszystko, co w nim
+jest napisane jako typ prosty lub złożony, który jest obiektem.
+
+Mimo, że wiele osób uważa go za język skryptowy sam uważam go
+za język programowania, ponieważ dotyka tematyki typowej dla
+języków programowania, aczkolwiek posiada budowę języka skryptowego.
+
+Historia
+
+Język Python został stworzony w 1991 roku. Jest następcą języka ABC.
+Jego nazwa pochodzi od znanego serialu Monthy Python. 
+
+Założenia
+
+Jest to język darmowy do użytku komercyjnego i niekomercyjnego,
+tak więc właściwie dowolnego. Pozwala na wybór sposobu programowania,
+jest więc językiem uniwersalnym.
+
+Wykorzystuje popularny paradygmat programowania, który wykorzystuje
+to, co jest stworzone, jako obiekty, które posiadają swoje właściwości.
+
+Każdy obiekt może składać się z typów podstawowych, tj. liczby
+i znaki oraz obiektowych. Oba typy wchodzą w skład języka Python.
+Programista sam może tworzyć typy obiektowe, przez co jest to język
+elastyczny.
+
+Typy obiektowe pozwalają na zaawansowaną i dostosowaną do potrzeb
+programisty pracę nad kodem programu. 
+
+Jest zgodny z innymi paradygmatami informatycznymi, wykorzystując je
+i dodając własne właściwości. Znajomość Pythona pomaga w dużo szybszym
+zrozumieniu innych języków programowania, jak np. Kotlin.
+
+Wiele informacji o języku Python znajdziemy na stronie internetowej
+https://www.python.org/. Jest to oficjalna strona języka Python.
+
+Język Python charakteryzuje wiele gotowych modułów, które możemy 
+zainstalować. Są to moduły to bardzo szybkiego tworzenia
+serwisów internetowych, w tym bardzo popularny moduł Django,
+zadań numerycznych, itd.
+
+Ten kurs dotyczy modułu podstawowego, na którym zbudowany jest Python.
+Jest to podstawa to późniejszego rozpoczęcia nauki modułów języka
+Python.
+
+Źródła:
+- https://pl.wikipedia.org/wiki/Python
+- https://www.python.org/

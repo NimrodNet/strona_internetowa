@@ -1,0 +1,12 @@
+Kurs języka Python dla bankowości. Lekcja 00. Wstęp.
+
+Jest to pierwsza lekcja kursu Python dla bankowości. Jest to darmowy kurs,
+z którego może korzystać każdy.
+
+Dziś omówię, jaki zakres obejmuje kurs.
+
+Kurs obejmuje zakres od podstaw języka Python po zaawansowane zagadnienia.
+Obejmuje tematykę pisania programów na komputerach PC, które są
+na nich uruchamiane.
+
+Zapraszam do przeglądania.

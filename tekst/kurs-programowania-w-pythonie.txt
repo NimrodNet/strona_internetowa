@@ -1,0 +1,9 @@
+Kurs programowania w Pythonie
+
+Wprowadzam kurs programowania w języku Python dla bankowości.
+
+Jest to darmowy kurs, który pokazuje podstawy języka Python.
+Kurs jest kierowany dla bankowości i każdego, kto chce się
+go nauczyć.
+
+Zapraszam do przeglądania.
