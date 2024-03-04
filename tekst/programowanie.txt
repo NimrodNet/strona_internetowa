@@ -1,0 +1,58 @@
+Programowanie w bankowości
+
+Czym jest programowanie w bankowości?
+
+Programowanie w bankowości obejmuje szereg różnych narzędzi,
+począwszy od języków programowania poprzez środowiska programistyczne
+i różne techniki programistyczne jak algorytmy, struktury danych,
+metody probabilistyczne, itd.
+
+Rozwijając tematykę bankowości można pomyśleć o różnych rzeczach.
+W skład języków programowania wchodzą Python, Java, Scala czy
+niemalże legendarny C. Sam osobiście korzystam na tą chwilę z Pythona.
+
+Dlaczego Python? Jest to bardzo prosty język, można w nim napisać
+wiele ciekawych rzeczy. Na Pythonie opiera się m.in. generowanie
+treści na stronie.
+
+Stworzenie bloga jest bajecznie proste. Blog w Pythonie działa dużo
+szybciej niż popularne systemy CMS tj. Wordpress, Joomla czy Drupal.
+W ogóle sam nie rozumiem trochę tego, czemu ludzie nadal instalują
+Wordpressa, który jest ciężki w obsłudze, trudny w instalacji,
+a przede wszystkim jest bardzo wolny.
+
+Dodatki do Wordpressa jeszcze bardziej go obciążają, mają masę reklam,
+wirusów.
+
+Jeżeli ktoś chce zacząć swoją przygodę z programowaniem to proponuję
+język Python z perspektywy bankowości.
+
+Innym ciekawym językiem jest Kotlin. Wygląda podobnie do Pythona,
+obsługuje ten sam paradygmat, czyli też wygląda jak język skryptowy.
+Należy do legendarnego JVM, Wirtualnej Maszyny Javy.
+
+Na JVM było dużo narzekania, ale ostatecznie nie jest to zły wybór.
+Na linuksie działa jak natura chciała.
+
+Jest to tylko mała część technologii programistycznych.
+
+Kolejnymi są edytor programistyczny. Sam preferuję Nano, uważam,
+że jest lepszy od Vim-a czy innych edytorów i środowisk
+programistycznych.
+
+Po co używać języków programowania?
+Wiele rzeczy na komputerze wykonujemy automatycznie. Są to rzeczy
+często podobne do siebie. Programy, które możemy napisać sami,
+pomagają w automatyzacji wielu czynności. Dzięki temu możemy
+zaoszczędzić czas, nie musimy robić ciągle tego samego.
+
+Czy warto uczyć się języków programowania?
+Jasne, że tak! W internecie jest wiele darmowych kursów, które
+pomagają w nauce programowania. Pythona jest pełno w necie.
+Nauka programowania jest dla każdego w każdym wieku.
+
+Podsumowując, programowanie jest to ważna część informatyki
+i dziedziny bankowości, w której informatyka jest mocno zakorzeniona.
+Warto więc znać chociaż podstawy np. Pythona czy Kotlina albo chociaż
+zobaczyć jak wygląda czy uruchomić jego kod na komputerze
+czy środowisku internetowym.
