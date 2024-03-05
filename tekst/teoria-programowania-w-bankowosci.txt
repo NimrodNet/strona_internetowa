@@ -1,0 +1,21 @@
+Teoria programowania w bankowości
+
+Teoria programowania w bankowości ma bardzo duże znaczenie.
+
+Odpowiada za zabezpieczenia, poprawne formułowanie błędów i problemów
+oraz rozwiązań informatycznych. Dzięki niej serwisy bankowe działają
+dużo szybciej, sprawniej.
+
+Bank ma możliwość rozwoju o kolejne moduły informatyczne, dzięki czemu
+posiada coraz więcej możliwości czy usług informatycznych.
+
+W ten sposób bank może stworzyć np. internetową wypożyczalnię
+filmów, gier na zasadach kredytu bankowego.
+
+W teorii programowania różne problemy można rozpisać na kartce,
+dzięki czemu unika się błędów strukturalnych. Można też tak samo
+sprawdzić wyniki na kartce, błędy, problemy, rozwiązania,
+przez to zyskujemy bardzo dużo czasu.
+
+Po rozpisaniu na kartce można rozpocząć implementację w danym
+kodzie programowania, jak Python czy Kotlin.

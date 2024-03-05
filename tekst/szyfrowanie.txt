@@ -1,0 +1,18 @@
+Metody szyfrowania
+
+Istnieje wiele metod szyfrowania w bankowości.
+
+Popularny algorytm RSA jest jedną z najlepszych obecnie metod
+szyfrowania. Lepszy jest jedynie... przerobiony RSA.
+
+W sieci można znaleźć masę przykładów RSA w różnych kodach programowania,
+językach.
+
+Po co one są? Po to, żeby podczas przesyłania pieniędzy z jednego konta
+na drugie nikt z boku nie przechwycił przesyłanej kwoty czy danych
+adresowych odbiorcy i nadawcy.
+
+Nie ma znaczenia z jakiego protokołu sieciowego korzystamy, czy to jest
+TCP, czy UDP, czy popularna 80 - ka, czyli HTTP. Ważne jest szyfrowanie.
+
+Port to tylko droga, po której idą dane.
