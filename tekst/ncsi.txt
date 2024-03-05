@@ -1,0 +1,22 @@
+NCSI - indeks bezpieczeństwa
+
+Na stronie NCSI można zobaczyć listę najbezpieczejszych cyfrowo krajów.
+
+Na pierwszym miejscu uplasowała się Polska. Jako jedyna posiada ponad 90
+punktów. Na drugim jest Australia z wynikiem 87.5 punkta, a na trzecim
+Estonia mając 85.83 punktów.
+
+Ranking NCSI przedstawia listę najbezpieczniejszych cyfrowo krajów.
+Oznacza to, że świadczenie usług cyfrowych w tych krajach jest 
+bardzo bezpieczne.
+
+Również korzystanie z banków jest bardzo bezpieczne. Sam sektor bankowy
+w Polsce jest bezpieczny, wszystkie zabezpieczenia są aktualizowane
+na bieżąco.
+
+Polskie banki udostępniają szereg usług cyfrowych, w tym korzystanie
+z karty płatniczej, przelewy internetowe, zakładanie konta przez internet
+i wiele innych.
+
+Źródło:
+- https://ncsi.ega.ee/ncsi-index/?order=rank

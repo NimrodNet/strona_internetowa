@@ -1,0 +1,69 @@
+Algorytm
+
+Algorytm to ważna część teorii programowania w bankowości.
+
+Algorytm to ciąg instrukcji, które dla określonych informacji początkowych
+przedstawiają informacje wynikowe.
+
+Przykład problemu. Mamy do przemnożenia 2 liczby. Algorytm przyjmuje
+te 2 liczby, pokazuje drogę do tego, jak je przemnaża. Program
+wykonuje algorytm i zwraca wynik.
+
+Algorytm nie musi przedstawiać konkretnych wartości. Może przyjąć
+wartości umowne, tzw. zmienne.
+
+Zmienna to dowolne wyrażenie. Jeżeli przyjmiemy zmienną o nazwie x,
+gdzie pod x możemy podać dowolną liczbę oraz y o takich samych
+właściwościach, to w rezultacie mamy dwie zmienne x i y, pod które
+możemy podłożyć dowolne liczby.
+
+X może wynosić 2, y 5. Mnożenie x i y wygląda tak: x * y.
+Po odsłonięciu zmiennych mnożenie wygląda tak: 2 * 5.
+Konkretny wynik wynosi 10. W algorytmie konkretny wynik
+wynosi z. 
+
+Cały algorytm można zapisać x * y = z lub 2 * 5 = 10.
+Pierwsza wersja jest wielokrotnego użytku, druga jest konkretna.
+Wejście to x i y, wyjście to z, a w drugim przypadku wejście
+to 2 i 5, a wyjście to 10.
+
+x = 5, y = 20
+
+x * y = 5 * 20 = 100
+
+Jest to rozwinięta forma algorytmu, podająca jego generalizację
+oraz konkretyzację. Generalizacją jest x i y, konkretyzacją 5 i 20.
+Wynik jest konkretny.
+
+x * y = 5 * 20 = z
+
+W tym przypadku wynik jest ogólny. Ogólny i konkretny wynik podlegają
+sprawdzeniu.
+
+Żeby sprawdzić wynik należy wykonać sprawdzanie algorytmu. Bierze się
+pod uwagę każdy dostępny aspekt algorytmu i istniejące metody, które
+są wykorzystywane w świecie rzeczywistym.
+
+Przykładowo, wynik 100 można sprawdzić przy pomocy kalkulatora, kasy
+w sklepie, itd. Jak sprawdzić wynik z? Należy wykonać działanie
+mnożenia, a następnie sprawdzić wynik.
+
+x * y * z = a
+
+Jest to tak samo algorytm.
+
+1 * a ^ 2 = g ^ 2
+
+To tak samo jest algorytm.
+
+Można powiedzieć, że algorytm posiada szale jak w wagach starego typu.
+Na jednej stronie kładło się odważnik 5 kg, a na drugiej dowolne produkty.
+Jeżeli szala wagi była równa, czyli odważnik 5 kg był na tej samej
+wysokości co produkty to oznaczało, że produkty ważyły 5 kg. Jeżeli nie,
+to nie wiadomo ile.
+
+Szala algorytmu zawsze jest równa. Można powiedzieć, że zawsze powinna
+wynosić 0.
+
+Tak więc można ku sprawdzeniu wykonać działanie po lewej stronie znaku
+równości i po prawej, a następnie odjąć lewą stronę od prawej.

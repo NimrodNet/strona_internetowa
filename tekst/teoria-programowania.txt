@@ -1,0 +1,33 @@
+Teoria programowania
+
+Teoria programowania dla bankowości jest bardzo ciekawa.
+
+Istnieje szereg niezbędnych pojęć do tego, żeby zrozumieć,
+czym jest programowanie.
+
+Programowanie to kod, który udostępnia nam usługi systemu operacyjnego.
+
+Na ogół przyjęło się, że w programowaniu posługujemy się "językiem"
+programowania, gdzie w rzeczywistości jest to "kod". Żaden sposób
+programowania nie posługuje się językiem na dzień dzisiejszy.
+
+Paradygmat jest to sposób przetwarzania informacji.
+
+Dzisiejszy paradygmat opiera się na instrukcjach i metodach.
+Instrukcje mówią systemowi operacyjnemu co ma robić, a metody
+pakują wiele instrukcji w jedną zwięzłą część.
+
+Instrukcja to deklaracja systemu operacyjnego odnośnie tego,
+co ma wykonać.
+
+System operacyjny obiecuje nam, że jeżeli zrobimy to czy tamto
+to on wykona coś innego. W rzeczywistości nie zawsze system operacyjny
+słucha się programisty i żyje swoim życiem.
+
+Metoda to szereg instrukcji, wykonanych w tym samym czasie.
+
+Metody pokazują nam sposoby na rozwiązanie problemu przy pomocy
+instrukcji.
+
+Tak właściwie wygląda programowanie. Opiera się na paradygmacie,
+w którym zawarte są instrukcje i metody.

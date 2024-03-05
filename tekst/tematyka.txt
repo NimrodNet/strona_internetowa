@@ -1,0 +1,12 @@
+Tematyka
+
+Tematyka jest ważnym aspektem każdej strefy informacyjnej, też w bankowości.
+
+W tym miesiącu chcę zająć się głównie tematyką programowania
+dla bankowości. Jest to bardzo ciekawy temat.
+
+Ogólnie dziedzina informatyki w bankowości jest bardzo ciekawa.
+Trzeba tu zwrócić uwagę na teorię programowania, bezpieczeństwo
+informatyczne czy teorię matematyki i fizyki w informatyce,
+gdzie matematyka obejmuje obszar przeznaczony dla informatyki,
+jak np. statystyka czy probabilistyka.
