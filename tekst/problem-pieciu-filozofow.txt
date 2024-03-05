@@ -1,0 +1,27 @@
+Problem pięciu filozofów
+
+Problem pięciu filozofów to podstawa algorytmiki.
+
+Postawił go E. Dijkstra w 1965 roku. Problem jest przenośnią
+do zakleszczania procesów, czyli sytuacji, w których jeden proces
+nie może korzystać z procesora, ponieważ inny korzysta z jego zasobów
+jako on sam i jako proces, który powinien korzystać z procesora.
+
+Inaczej patrząc, z procesora komputera chce skorzystać 10 procesów,
+a może maksymalnie 9. Jeden proces stoi za resztą. Proces, za którym
+stoi inny proces korzysta procesora jako on i jako proces, który
+za nim stoi.
+
+Problem przedstawiono jako problem pięciu filozofów. Przy stole siedzi
+pięciu filozofów. Każdy ma przed sobą talerz ze spaghetti. Na stole
+jest 5 widelców. Jeden filozof korzysta z dwóch widelców na raz.
+
+Tak więc dwóch filozofów je, a reszta się patrzy.
+
+Rozwiązaniem jest wyczyszczenie widelców lub podanie dla każdego
+filozofa dodatkowego widelca.
+
+Podano różne rozwiązania problemów w literaturze i w internecie, niestety
+większość pokazuje używanie brudnych sztućców przez różnych filozofów.
+Jeden je po drugim, obydwaj jedzą z tego samego talerza jednocześnie, itd.
+Nie będę dalej kontynuował, bom hetero.
