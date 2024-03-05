@@ -1,0 +1,45 @@
+Algorytm wyszukiwania błędów
+
+Wyszukiwanie błędów to podstawa informatyki w bankowości.
+
+Pod uwagę bierze się dwa zbiory danych, jeden z poprawnymi danymi,
+czyli poprawny, a inny niepoprawny. Oprócz istniejących danych
+poprawnych i niepoprawnych każdy ze zbiorów przyjmuje odwrotności
+z przeciwnego zbioru, których nie posiada.
+
+Istnieje pewien ciąg informacji. Każda z informacji jest sprawdzana
+przez zbiór poprawny i niepoprawny. Jeżeli dla każdej informacji
+istnieje element zbioru poprawnego i niepoprawnego jednocześnie,
+to informacja jest prawdziwa.
+
+U = p | n
+
+Jest to dziwny zapis niespotykany w matematyce ani teorii informatyki.
+
+Przykład. Istnieje zadanie 2 + 2 = n. My wiemy, że n wynosi 4, aczkolwiek
+komputer może tego nie wiedzieć. Przyjmijmy za n dowolną liczbę z zakresu
+od 0 do 10 i sprawdźmy wynik dla 4.
+
+p = 1, 2, 4, 5
+n = -1, -2, -4, -5
+
+Dla U = 2
+
+2 = 1 | -1
+2 = 2 | -2
+
+itd.
+
+Dla n = 4, czyli U = 4 jest tak samo.
+
+Przyjmijmy teraz, że n = 5
+
+p = 1, 2, 5, 7
+n = -1, -3, -5, -7
+
+5 = 1 | -1
+5 = 2 | -3
+
+i w tym miejscu jest błąd.
+
+Przeciwnością 2 jest -2, a nie -3, dlatego jest błąd.

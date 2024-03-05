@@ -1,0 +1,13 @@
+Sito Eratostenesa
+
+Sito Eratostenesa to sposób na znajdowanie liczb pierwszych.
+
+Liczby pierwsze stanowią nieodzowny element matematyki oraz są
+bardzo ważnym czynnikiem w dziedzinie bezpieczeństwa również
+w bankowości.
+
+Czy jest poprawne? Dla prostych struktur tak, dla bardziej skomplikowanych
+już nie.
+
+Oznacza to tyle, że jeżeli ułożymy wszystkie liczby w pewnej bryle
+to tak, ale jeżeli zmienimy jej kształt to wynik może być niepoprawny.
