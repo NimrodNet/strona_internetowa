@@ -1,0 +1,18 @@
+Pozycjonowanie strony
+
+Jak zwiększyć pozycjonowanie strony internetowej?
+
+Po stworzeniu strony internetowej każdy chce, żeby była jak najwyżej
+w wynikach wyszukiwania. Jest to ważna kwestia z punktu widzenia
+algorytmiki i wyników wyszukiwania.
+
+Aby zwiększyć wyniki wyszukiwania strony internetowej, należy
+zadać sobie pytanie czym są te wyniki?
+
+Odpowiedź jest prosta. Wyniki wyszukiwania to postać strony internetowej
+w algorytmach i ich rozwiązaniach.
+
+Dodatkowo powinno się pamiętać o przestrzeganiu zasad poprawnego
+pisania czy tworzenia kodu strony. Reguły tworzenia kodu strony
+są przedstawione w internecie. Najczęściej jest to kod HTML połączony
+z CSS.
