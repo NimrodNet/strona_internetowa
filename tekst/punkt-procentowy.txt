@@ -1,0 +1,12 @@
+Punkt procentowy
+
+Punkt procentowy to różnica między dwoma wartościami procentowymi.
+
+W bankowości oznacza to tyle, że jeżeli RRSO kredytu zmieniło się
+z 20% do 18%, to punkt procentowy wynosi 20% - 18% = 2 p.p., czyli
+różnica wynosi 2 punkty procentowe. RRSO zmniejszyło się o 2 p.p.
+
+Punkty procentowe mogą być ujemne, przemnożone, podzielone, z resztą,
+itd.
+
+Pokazują faktyczną zmianę wartości procentów.
