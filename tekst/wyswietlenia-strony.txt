@@ -1,0 +1,23 @@
+Wyświetlenia strony
+
+Istnieją algorytmy, zwiększające liczbę wyświetleń strony internetowej.
+
+W bankowości jest to bardzo ważne. Im większa liczba wyświetleń
+strony internetowej tym bank posiada większą liczbę klientów.
+
+Algorytm stadny pomaga w przyjściu jak największej liczby osób
+grupowo. Wygląda tak:
+
+P = a * s, gdzie P to populacja, a to liczba osób, s to suma kredytów
+gotówkowych.
+
+Bardzo prosty algorytm, a cieszy. Pomaga obliczyć wartość kredytów
+gotówkowych i mocno zwiększyć liczbę użytkowników strony internetowej.
+
+Algorytm terrarny to algorytm płaszczki. Płaszczki przypływają
+do zbiorników wodnych grupami. Wygląda tak:
+
+P = a * w, gdzie P to populacja, a to liczba osób, przysłowiowych
+płaszczek, a w to czas spędzony w banku czy na stronie internetowej.
+
+Proste i fajne.
