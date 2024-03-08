@@ -1,0 +1,43 @@
+Jak zwiększyć bezpieczeństwo strony?
+
+Bezpieczeństwo strony internetowej jest bardzo ważne.
+
+Żeby je zwiększyć, należy najpierw przyjrzeć się wszystkim jej
+aspektom, pogrupować te najważniejsze i te mniej ważne, zastanowić się
+jakie są ich mocne i słabe strony, a następnie jakie formy zabezpieczeń
+można wdrożyć.
+
+Obecnie liczba ataków na strony internetowe drastycznie się zwiększyła.
+Atakują wszystkich i wszystko. Czasem nie mamy pojęcia jak często
+i czym są atakowane strony internetowe.
+
+Na tą chwilę popularne są ataki z sieci tor, ataki DDoS, robienie zombiaków
+ze stron, itd.
+
+Czy jest to dla nas niebezpieczne? Jasne, że tak. Nie mówiąc już o plikach,
+które są infekowane i jak ktoś wchodzi na naszą stronę to pobiera
+wirusy. Wirusy na stronie internetowej rozpowszechniają się w mgnieniu
+oka po innych stronach, hostinach, chmurze obliczeniowej, wpadają do
+laboratoriów informatycznych, blokując porty w ważnych instytucjach,
+superszybkich komputerach, itd.
+
+Hostingodawcy najczęściej w ogóle nie informują klientów o zagrożeniach.
+Dla nich zagrożeń nie ma.
+
+Banki również przez to obrywają. Ataki hakerskie na banki są dziś
+tak częste jak wiatr nad morzem. Co chwila dostawcy internetowi
+wzmacniają zabezpieczenia na hostingach bankowych.
+
+Ciekawym rozwiązaniem jest montowanie przekaźników, czyli routerów
+firmy Cisco. Cisco i wszystko. Są to najlepsze przekaźniki w ogóle,
+bardzo dobrze chronią przed wirusami, hakerami, itd. TP-link
+to już nie to.
+
+Antywirus na każdym komputerze to podstawa, jeżeli ktoś ma Windowsa
+albo Maca. Linuks nie potrzebuje antywirusa. Można jako bramę do sieci
+wewnętrznej użyć komputera lub innego urządzenia z systemem Linuks
+albo Solaris i jest ewenemencko. Na Linuksie poustawiać aktywne
+skany, IP Tables i jest super. Solaris już to ma.
+
+Są różne rozwiązania. Dobrze jest używać tego, co się ma pod ręką,
+ale dobry sprzęt w firmie to podstawa.
