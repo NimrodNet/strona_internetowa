@@ -1,0 +1,7 @@
+System bankowy
+
+Środowisko "Bankowość" wprowadza system bankowy.
+
+System bankowy ma nazwy "Bankowość", "Bankowość to my".
+Staje się zintegrowaną częścią środowiska. Jest odpowiedzialny
+za część systemową, autonomiczną.
