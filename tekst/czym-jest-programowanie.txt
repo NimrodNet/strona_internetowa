@@ -1,0 +1,95 @@
+Czym jest programowanie?
+
+Programowanie to zapis informacji w pamięci komputera przy użyciu kodu,
+który jest interfejsem do ich odczytu.
+
+W bankowości programowanie jest bardzo często wykorzystywane.
+Programiści budują systemy bankowe, zabezpieczają je, tworzą nowe
+rozwiązania, schematy.
+
+Grupy, składające się od 2 do 200 programistów razem pracują nad
+rozwiązaniami programistycznymi, które umożliwiją jak najbardziej
+wydajne tworzenie oprogramowania bankowego.
+
+Dziś kod programu nie jest problemem. W niektórych kodach programów
+istnieją generatory, które umożliwiają utworzenie systemu bankowego
+w sekundę! Klik, przycisk i system bankowy istnieje. Jest to niesamowicie
+szybko.
+
+Co więcej, taki generator można przekazać, przesłać, udostępnić
+i każda osoba, która potrafi korzystać z klawiatury i myszki może
+stworzyć system bankowy w sekundę.
+
+Dlaczego więc bank zatrudnia tak wielką liczbę programistów?
+Powód jest prosty. To problemy, z którymi programiści zmierzają się
+poza systemem. Dziś problemem nie jest kod, ale to, co system robi.
+Wymagania banków są różne.
+
+Do niedawna popularne były elastyczne systemy, które zmieniały się
+wraz z wymaganiami banków. Doszło do tego, że pracownik z poziomu
+interfejsu programu mógł otworzyć... bank.
+
+Stworzyło to ogromne pole do manewru dla hakerów, którzy na codzień
+tworzą miliony systemów bankowych. Symulują je, żeby przewidzieć
+różne scenariusze ataku na bank. Chcą przewidzieć wszystko.
+
+Rolą programistów jest zabezpieczenie całego systemu bankowego.
+To nie jest tylko kod, ale też działania, a przede wszystkim
+ludzie.
+
+Człowiek codziennie jest bardzo podatny na ataki hakerów. Przysłowiowa
+pani Jadzia, która siedzi w banku, jest bardzo podatna na wyłudzenia.
+Wyłudzić dane można w programie komputerowym, ale przede wszystkim
+w kontakcie bezpośrednim. Pani Jadzia jest narażona na ataki hakerów
+w pracy i poza nią.
+
+Co zrobić, żeby pani Jadzia nie pracowała po pracy i była odporna
+na ataki socjotechników? Programiści cały czas nad tym pracują,
+bo to jest ich rolą. Widać więc coraz większą rolę psychologii
+w pracy programisty.
+
+Jak zbudować zaufanie, a jednocześnie wstrzemięźliwość pani Jadzi?
+To kolejne bardzo ciekawe pytanie.
+
+W rezultacie zawód informatyka, którym jest programista staje się
+tym, czym powinien być. Informatyk zaczyna zarządzać informacją!
+
+W końcu zdaje sobie sprawę, że jego zawód jest odpowiedzialny
+Co ma zrobić pani Jadzia, jeżeli ktoś przyjdzie do niej z siekierą?
+Tego ma nauczyć informatyk.
+
+Programista pokazuje schematy postępowania. W informatyce to on
+ma odpowiedzialność za te schematy i za innych, no i też trochę
+za siebie, chociaż tu zależy.
+
+W końcu programista stwierdza, że on nic nie wie o samoobronie i
+postanawia zapisać się do jednostki militarnej, typu Grom, która
+nauczy go lania się po mordzie. Zapisze się na budowę, żeby nauczyć
+się pracować. Pokaże dla lekarza, jaki ten powinien wypisać lek,
+bo ma wiedzę z dziedziny medycyny nie raz większą od lekarza, aczkolwiek
+to lekarz bierze za pacjenta odpowiedzialność.
+
+Informatyk zaczyna myśleć więc i filozofia by się przydała.
+
+Dawno temu programiści zaczęli brać się za siebie. Biegają, skaczą,
+biorą udział w zawodach sportowych, walkach MMA, nie raz je wygrywając.
+Właściwie biegamy, skaczemy...
+
+Dziś programista tworzy ludzkie schematy. Jak szybko zadać cios?
+Jak dopasować trening do własnych upodobań? Jak dobrać trening
+tak, żeby szybko progresować? Jak obrać najszybszą drogę do pracy?
+Na te i inne pytania odpowiadają informatycy.
+
+Przyszłość informatyki widzę w wartościach uniwersalnych. W bankowości
+jest to bardzo widoczne. Jedna wartość robiąca wszystko za wszystkich.
+
+Schemat, którego nie trzeba zmieniać i może dopasować się do wszystkich
+ewentualności. Schemat, który działa.
+
+Schemat, który obroni panią Jadzię przed wszendobylskim złem, wyśle nas
+na trening i zabezpieczy system przed atakami Covid-25, który przenosi się
+z ludzi do oprogramowania i na odwrót. Taki tam fajny schemat, tego.
+
+Podsumowując, programowanie jest świetną dyscypliną. Nie raz wymaga
+kondycji maratończyka, nie raz wiedzy spoza zakresu programu
+"1 z 10", ale jest to świetny zawód.

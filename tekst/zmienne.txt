@@ -1,0 +1,8 @@
+Zmienne
+
+Zmienne są w teorii programowania podstawą.
+
+Zmienna to wartość, pod którą można podłożyć dowolną wartość.
+
+W bankowości zmienne są wykorzystywane w systemach bankowych, w programach
+typu Excel, itd.

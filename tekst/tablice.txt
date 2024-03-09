@@ -1,0 +1,33 @@
+Tablice
+
+Tablice to uporządkowana pamięć komputera, przechowująca informacje.
+
+W bankowości tablice budują systemy informatyczne.
+
+Każda tablica posiada indeks oraz wartość. Indeks tablicy zwiększa się
+o 1 i zaczyna od 0. Tak więc pierwszy indeks tablicy wynosi 0, drugi, 1,
+itd. Często na początku przyjmuje się, że pierwszy indeks tablicy
+wynosi 1, co jest błędem.
+
+0  | 1  | 2  | 3  | <br/>
+------------------- <br/>
+20 | 4  | 21 | 13 | <br/>
+
+Przykład pokazuje tablicę z 4 elementami. Na górze rozpisane są indeksy,
+na dole wartości. Pierwszy indeks, czyli ten o numerze 0 ma wartość
+20, 2 4, itd. 
+
+W pamięci komputera wygląda to dokładnie tak samo. Program zapisuje dane
+w pamięci komputera w taki sam sposób, zapisując numer indeksu tablicy,
+wartość oraz jej strukturę, żeby było wiadomo, że to jest tablica.
+
+W praktyce w programowaniu zapis tablicy wygląda w ten sposób: tablica[].
+Żeby odnieść się do elementu tablicy należy między nawiasy kwadratowe
+podać indeks elementu. "tablica[0]" pokaże 1 wartość, "tablica[1]"
+pokaże 2 wartość, w tym przypadku 4. 
+
+W ten sposób programista może dotrzeć to wartości tablicy.
+
+W praktyce tablice to niezwykle szybki i zwięzły sposób przekazywania
+informacji, gorzej z zapisywaniem. Zapisywanie informacji w tablicy
+jest bardzo wolne. Programista nie widzi różnicy, ale program tak.
