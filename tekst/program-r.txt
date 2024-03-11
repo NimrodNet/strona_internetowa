@@ -1,0 +1,26 @@
+Program R
+
+R to program znany w dziedzinie statystyki.
+
+W bankowości jest to narzędzie obowiązkowe, chyba że bank posiada lepsze.
+
+Wpisując frazę R tutorial można natknąć się na wiele przykładów.
+Najlepiej jednak zacząć od totalnych podstaw.
+
+Na stronie internetowej r-project.org, która jest stroną programu R
+można znaleźć informację na temat programu. W sieci jest bardzo dużo
+kursów odnośnie instalacji, konfiguracji i używania programu.
+Można przejrzeć stronę programu żeby zobaczyć o co w nim chodzi.
+
+W praktyce powiem, że to jest kombajn. Zawiera w sobie masę różnych
+funkcji. Jest niesamowicie przydatny. Wymaga podstawowej wiedzy z zakresu
+statystyki i używania komputera. Dla każdego, kto na poważnie myśli
+o prowadzeniu firmy czy nawet nie to jest podstawa.
+
+R jest dla firmy czym klawiatura dla komputera. Absolutną podstawą.
+Sam proponuję wyrzucić wszystkie Excele, bo są bez sensu.
+
+Tak więc R to podstawa. Można z niego zrezygnować tylko wtedy, kiedy posiada
+się lub rozwija inny program do statystyki napisany np. w Pythonie.
+
+Polecam R.

@@ -1,0 +1,11 @@
+Statystyka
+
+Statystyka to jedna z podstaw banków.
+
+Bank opiera się o statystykę. Często statystyka banków polega na braniu
+pod uwagę średniej, odrzuceniu minimów i maksymów.
+
+Jeżeli licznik wychodzi do minimum lub maksimum to dobrze jest powiadomić
+o tym właściciela. Wartością może być konkretna wartość, sposób zmian, itd.
+
+Zakres minimalny oraz maksymalny wyciąga się ze średniej.
