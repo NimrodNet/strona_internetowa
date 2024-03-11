@@ -1,0 +1,11 @@
+Google Finance
+
+Google posiada usługę Google Finanse informującą o wartości spółek i firm.
+
+Z poziomu platformy można śledzić notowania popularnych spółek. Jest to
+ściągawka dla inwestorów. Bank, inwestując w karty graficzne Nvidia
+również może śledzić akcje grupy Nvidia.
+
+Inwestowanie dla zwykłych osób czy dla banków jest dobrym wyborem.
+
+Google Finance jest dostępne pod adresem https://www.google.com/finance/.
