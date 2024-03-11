@@ -1,0 +1,31 @@
+Wykrywanie czegokolwiek
+
+Algorytm przeciwności ma tutaj swoje idealne zastosowanie.
+
+W bankowości istnieje wiele metod na wyszukanie czegoś. Jedną z nich
+jest algorytm przeciwności.
+
+U = i | -i
+
+Jeżeli szukamy piksela twarzy na zdjęciu. Algorytm przeciwności
+rozpoczyna się od U = 1 | a, gdzie a to dowolna liczba. Algorytm
+losuje 3 liczby. Jeżeli jedna z nich wynosi -1 w tym przypadku
+to algorytm jest poprawny, czyli wykryty piksel to piksel twarzy,
+jeżeli nie to to nie jest piksel twarzy.
+
+Jeżeli więcej niż 1 z liczb będzie wynosiła -1 to algorytm też jest
+poprawny. Tak więc algorytm musi znaleźć przynajmniej jedną przeciwność.
+
+Algorytm prawdy
+
+Liczbą prawdy jest 2. 
+
+U = 2
+
+Algorytm losuje 3 liczby. Jeżeli chociaż jedna z nich to 2 to algorytm
+jest poprawny.
+
+Kiedy wybrać algorytm przeciwności?
+
+Wtedy, kiedy mamy wiele różnych zadań, np. wyszukiwanie, zapisywanie,
+itd. Algorytm prawdy nadaje się tylko do wyszukiwania.
