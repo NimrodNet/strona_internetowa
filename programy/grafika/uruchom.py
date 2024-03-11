@@ -13,5 +13,5 @@ rysunek = ImageDraw.Draw(image)
 rysunek.point(proksy, punkt)
 
 
-image.save("punkt.png")
+image.save("wyjscie.png")
 image.show()
