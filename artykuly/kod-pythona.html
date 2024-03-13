@@ -1,0 +1,102 @@
+
+<!-- Początek strony html -->
+<!DOCTYPE html>
+<html>
+<!-- Początek sekcji nagłówka -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Silniki wyszukiwania -->
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<!-- Favicon -->
+<link rel="icon" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="mask-icon" href="favicon.svg" color="blue">
+<!-- Tytuł strony  -->
+<title>Kod Pythona</title>
+<meta name="description" content="W internecie możemy napotkać wiele przykładów kodu języka Python.">
+<meta name="keywords" content="kod, pythona, kod pythona">
+<meta name="author" content="o-autorze.txt">
+
+<!-- Style CSS -->
+<link rel="stylesheet" href="../css/stylus/moduly/blog/blog.css">
+</head>
+<!-- Koniec sekcji nagłówka -->
+<body>
+
+<naglowek>
+<tytul>W przeszłości</tytul>
+<opis>Blog</opis>
+<naglowek>
+
+<nawigacja>
+<a href="../index.html">Strona główna</a>
+<a href="../o-nas.html">O nas</a>
+<a href="../kontakt.html">Kontakt</a>
+<a href="../wsparcie.html">Wsparcie</a>
+</nawigacja>
+
+<artykul>
+    <img src="../grafika/karta-kredytowa.jpeg" alt="Karta kredytowa"/>
+    <tytul>Kod Pythona</tytul>
+    <tekst>
+        <p>
+Kod Pythona
+</p>
+<p>
+W internecie możemy napotkać wiele przykładów kodu języka Python.
+</p>
+<p>
+W bankowości każdy przykład jest dobry.
+</p>
+<p>
+Poniższy przykład pokazuje rysowanie punktu w języku Python.
+</p>
+<p>
+<code>
+import sys <br/>
+from PIL import Image, ImageDraw <br/>
+<br/>
+tlo = "rgb(255,255,254)" <br/>
+rozdzielczosc = (300, 300) <br/>
+<br/>
+proksy = (100, 100) <br/>
+punkt = "rgb(0,0,0)" <br/>
+<br/>
+image = Image.new("RGB", rozdzielczosc, tlo)
+<br/><br/>
+rysunek = ImageDraw.Draw(image)<br/>
+rysunek.point(proksy, punkt)<br/>
+<br/>
+</p>
+<p>
+image.save("wyjscie.png")<br/>
+image.show()<br/>
+</code>
+</p>
+<p>
+Program korzysta z popularnego modułu Pillow dla języka Python. Rysuje
+czarną kropkę na białym tle.
+</p>
+<p>
+Metoda point() pozwala narysować kropkę. Jest to metoda, którą ktoś już
+wcześniej stworzył. My możemy z niej korzystać.
+</p>
+<p>
+Metoda save() zapisuje plik do lokalizacji, a show() pokazuje plik 
+graficzny.
+</p>
+<p>
+Jest to pokazanie tego, że w prosty sposób można stworzyć grafikę o dowolnej
+rozdzielczości i zawartości. Można rysować kropki, kreski, figury, ludzi,
+itd. Fajna rzecz.
+</p>
+    </tekst>
+</artykul>
+
+<stopka>Copyright ©. Wszelkie praca zastrzeżone.</stopka>
+
+</body>
+
+</head>

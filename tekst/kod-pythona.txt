@@ -1,0 +1,40 @@
+Kod Pythona
+
+W internecie możemy napotkać wiele przykładów kodu języka Python.
+
+W bankowości każdy przykład jest dobry.
+
+Poniższy przykład pokazuje rysowanie punktu w języku Python.
+
+<code>
+import sys <br/>
+from PIL import Image, ImageDraw <br/>
+<br/>
+tlo = "rgb(255,255,254)" <br/>
+rozdzielczosc = (300, 300) <br/>
+<br/>
+proksy = (100, 100) <br/>
+punkt = "rgb(0,0,0)" <br/>
+<br/>
+image = Image.new("RGB", rozdzielczosc, tlo)
+<br/><br/>
+rysunek = ImageDraw.Draw(image)<br/>
+rysunek.point(proksy, punkt)<br/>
+<br/>
+
+image.save("wyjscie.png")<br/>
+image.show()<br/>
+</code>
+
+Program korzysta z popularnego modułu Pillow dla języka Python. Rysuje
+czarną kropkę na białym tle.
+
+Metoda point() pozwala narysować kropkę. Jest to metoda, którą ktoś już
+wcześniej stworzył. My możemy z niej korzystać.
+
+Metoda save() zapisuje plik do lokalizacji, a show() pokazuje plik 
+graficzny.
+
+Jest to pokazanie tego, że w prosty sposób można stworzyć grafikę o dowolnej
+rozdzielczości i zawartości. Można rysować kropki, kreski, figury, ludzi,
+itd. Fajna rzecz.
