@@ -11,6 +11,8 @@ class Uruchom:
         pojedynczo = "tak"
         porownac = "tak"
         iteracyjnie = "tak"
+        z_tablicy = "tak"
+        elementarnie = "tak"
         wiadomosc = "Napisz liczbę sto w formie liczbowej."
         self.szukana_liczba = ""
         self.zwroc_wartosc()
