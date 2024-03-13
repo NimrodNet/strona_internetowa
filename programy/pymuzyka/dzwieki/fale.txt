@@ -1,0 +1,1 @@
+ffmpeg -f lavfi -i "aevalsrc='sin(700*t/2*PI*t)':s=44100:d=20" -c:a pcm_s32le allfreq.wav

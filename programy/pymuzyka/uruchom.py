@@ -1,5 +1,6 @@
 import os
 from gamy.gamy_podstawowe import *
+from wykresy.czerwona_fala import *
 
 class Pymuzyka:
 
@@ -26,3 +27,6 @@ gamy = Gamy_podstawowe()
 muzyka.ustaw_czestotliwosc(gamy.B4())
 muzyka.ustaw_czas("5")
 muzyka.stworz_dzwiek("test.wav")
+
+fala = Czerwona_fala()
+fala.uruchom("test.wav")
