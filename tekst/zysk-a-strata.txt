@@ -1,0 +1,38 @@
+Zysk i strata
+
+Zysk i strata to nieodzowne elementy bankowości.
+
+Bank pomaga nam zyskać i chroni przed stratą.
+
+W życiu podstawowym problemem jest nie to, że mało zyskujemy, ale to, że dużo
+tracimy. Przez stratę wiele naszego działania idzie na marne.
+
+Podstawą jest zablokowanie możliwości straty. W wielu dziedzinach, jak np.
+w edukacji tracimy czas na naukę czegoś, co już dawno umiemy tylko nie
+potrafimy tego wykorzystać. Zablokowanie straty to nauka tego, czego nie
+umiemy, czyli czytanie wszystkiego po kolei i nie zatrzymywanie się ani
+nie wracanie. Zysk to nauka kolejnych rzeczy.
+
+My zawsze dążymy do tego żeby mieć zysk przez co tracimy. Wydaje nam się, że
+jak się napracujemy to zyskamy. Nic z tych rzeczy. Żeby praca przyniosła zysk
+należy wyeliminować stratę.
+
+wynik = zysk + strata
+
+Jeżeli zysk = 5, a strata = -5 to wynik wynosi 0. Zysk = 6, strata = 10
+to wynik = -4, itd.
+
+Dodatni wynik jest spoko, wynik 0 jest super.
+
+Przypuśćmy, że się odchudzamy. Jeżeli zrzucimy 2 kg masy tłuszczowej to
+też stracimy zazwyczaj trochę masy mięśniowej, np. 0.5 kg przy przemyślanej
+strategii odżywiania. Problem w tym, że masa mięśniowa jest dla nas z reguły
+dobra i żeby ją odbudować czasem potrzebujemy poświęcić kilka miesięcy.
+
+Wynik w tym przypadku wynosi -1.5. Nie jest zły.
+
+Co zrobić, żeby się cieszyć z ładnej umięśnionej figury? Należy zachamować
+katabolizm tkanki mięśniowej.
+
+Nie każdy powinien ważyć dużo naturalnie. Każdy powinien sprecyzować to
+ile powinien ważyć.
