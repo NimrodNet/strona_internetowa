@@ -30,7 +30,7 @@ class Automat:
         giter.inicjuj()
         giter.dodaj()
         giter.wiadomosc("Giter_-_aktualizacja")
-        #giter.wczytaj()
+        giter.wczytaj()
 
 automat = Automat()
 automat.wykonaj()
