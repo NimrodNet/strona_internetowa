@@ -17,8 +17,29 @@ class Giter:
     def pobierz_galaz_lokalna(self):
         return self.wykonaj("git branch")
 
+    def lista_galezi(self):
+        self.wykonaj("git branch")
+
+    def stworz_galaz(self, nazwa):
+        self.wykonaj("git checkot -b " + nazwa)
+
+    def przelacz_galaz(self, nazwa):
+        self.wykonaj("git checkout " + nazwa)
+
+    def polacz_galezie(self):
+        self.wykonaj("git pull")
+
+    def scal_galezie(self, nazwa):
+        self.wykonaj("git merge " + nazwa)
+
+    def usun_galaz_zdalna(self, nazwa):
+        self.wykonaj("git push origin --delete " + nazwa)
+
+    def usun_galaz_lokalna(self, nazwa):
+        self.wykonaj("git branch -d " + nazwa)
+
     def wczytaj(self):
-        self.wykonaj("git push origin master")
+        self.wykonaj("git push")
 
     def wykonaj(cls, polecenie):
         os.system(polecenie)
@@ -29,7 +50,7 @@ class Automat:
         giter = Giter()
         giter.inicjuj()
         giter.dodaj()
-        giter.wiadomosc("Giter - aktualizacja")
+        giter.wiadomosc("Giter_-_aktualizacja")
         giter.wczytaj()
 
 automat = Automat()
