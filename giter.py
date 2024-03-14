@@ -135,7 +135,7 @@ class Automat:
         giter = Giter()
         giter.inicjuj()
         giter.dodaj()
-        giter.wiadomosc("Giter_-_aktualizacja")
+        giter.wiadomosc("@@##_Giter_-_aktualizacja_##@@\n############")
         giter.wczytaj()
 
 automat = Automat()
