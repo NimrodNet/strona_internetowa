@@ -1,0 +1,23 @@
+Giter
+
+Giter to program służący do szybkiej aktualizacji zadań odnośnie
+wrzucania plików na stronę internetową.
+
+Napisałem program o nazwie Giter, który umożliwia automatyczne wrzucenie
+plików na repozytorium Github. Korzystam z Github żeby przenieść
+stamtąd wszystkie pliki do Cloudflare i wyświetlać je jako stronę
+internetową.
+
+Na repozytorium można sobie znaleźć ten plik, pobrać, uruchomić.
+
+Link do repozytorium: https://github.com/NimrodNet/strona_internetowa
+
+Link do pliku: https://github.com/NimrodNet/strona_internetowa/blob/master/giter.py
+
+W międzyczasie zawartość może się zaktualizować.
+
+Program pomaga zaoszczędzić mnóstwo czasu. Nie muszę i nie chcę za każdym
+razem wpisywać komend ręcznie, program robi to za mnie.
+
+W bankowości automatyzacja jest bardzo ważna. Pozwala zaoszczędzić
+masę czasu.

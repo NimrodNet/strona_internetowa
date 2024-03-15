@@ -1,0 +1,27 @@
+Gama doremi
+
+Każdy z nas zna popularne połączenie dźwięków "do-re-mi".
+
+Pełne połączenie brzmi: do-re-mi-fa-so-la-si-do
+do-si-la-so-fa-mi-re-do.
+
+Stworzyłem gamę doremi. Oznacza to, że wybieramy pierwszą gamę,
+czyli pierwszy dźwięk, następnie drugi wyższy dźwięk.
+Wybieramy 8 dźwięków, gdzie każdy jest wyższy od poprzedniego.
+
+Następnie łączymy je w kolejności od niższego do wyższego,
+druga warstwa to od wyższego do niższego i łączymy dwie
+warstwy. Powstaje gama doremi.
+
+Gama "do" może mieć dowolną częstotliwość.
+
+Fajnie, bo udało się stworzyć całkiem nową gamę z gam istniejących,
+do tego jest podobna do klasycznego "do-re-mi". Klasyczne 
+"do-re-mi" jest melodią.
+
+Co więcej, udało mi się to stworzyć przy użyciu języka Python
+i kodeka ffmpeg.
+
+Całość jest na Githubie.
+
+Powiem, że bardzo się z tego cieszę.
