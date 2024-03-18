@@ -1,7 +1,6 @@
-from zamien_na_sciezke import *
+from pobierz_rozszerzenie import *
 
-foldery = ["folder1", "folder2", "folder3"]
-
-zamien = Zamien_na_sciezke()
-sciezka = zamien.wykonaj(foldery)
-print(sciezka)
+sciezka = "folder/drugi_folder/plik.txt"
+pobierz = Pobierz_rozszerzenie()
+nazwa = pobierz.wykonaj(sciezka)
+print(nazwa)
