@@ -1,7 +1,7 @@
-from pobierz_liste_plikow import *
+from zamien_na_sciezke import *
 
-nazwa_folderu = "folderu/"
+foldery = ["folder1", "folder2", "folder3"]
 
-lista_plikow = Pobierz_liste_plikow()
-pliki = lista_plikow.wykonaj(nazwa_folderu)
-print(pliki)
+zamien = Zamien_na_sciezke()
+sciezka = zamien.wykonaj(foldery)
+print(sciezka)

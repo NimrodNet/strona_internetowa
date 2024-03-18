@@ -1,11 +1,10 @@
-import os
 import glob
 
-class Pobierz_liste_plikow:
+class Pobierz_pliki:
 
     def wykonaj(self, sciezka):
         try:
-           pliki = glob.glob(sciezka + r'\**\*.py', recursive=True)
+           pliki = glob.glob(sciezka + "**", recursive=True)
            return pliki
         except:
             print("Klasa Lista_plikow, metoda wykonaj(). \n" +
