@@ -1,0 +1,24 @@
+System 52
+
+System 52 jest to świetny system liczbowy.
+
+Bankowość zajmuje się m.in. optymalizacją, systemami liczbowymi, itd.
+
+System 52 jest używany jako system liczbowy, który definiuje ciągi
+znakowe, zapisane przy pomocy liczby 52 oraz jej wielokrotności.
+
+Jest dużo szybszy, sprawniejszy od używanego w informatyce systemu
+dwójkowego. Mówiąc krótko, system 52 i dalej długo, długo nic.
+
+Przypuśćmy, że mamy cztery litery, A, B, C i D. A oznaczymy jako 52,
+B = 104, C = 156, D = 208. Tak zapisujemy wszystkie znaki w pliku
+tekstowym. Wygląda to tak: 52104156208. Nie trzeba pisać przed 52 dwóch
+zer, ponieważ system i tak je rozpozna. 
+
+Wszystkie informacje powinny być konwertowane do systemu 52 i zapisywane,
+później odczytywane i konwertowane do systemu, w którym chcemy się poruszać.
+Najlepiej poruszać się w systemie 52.
+
+Mówiąc ogólnie, jeżeli chcemy zrobić cokolwiek powinniśmy korzystać
+z systemu 52 oprócz wyświetlania informacji, wtedy wybieramy system
+dobry dla nas, czy to UNICODE, ASCII czy jakikolwiek inny.
