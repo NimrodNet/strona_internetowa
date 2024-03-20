@@ -2,15 +2,10 @@ from tablica import *
 
 tablica = Tablica()
 
-druga_tablica = Tablica()
-
-tablica.dodaj("Siała")
-tablica.dodaj("baba")
-tablica.dodaj("mak.")
-
-druga_tablica.dodaj("Nie")
-druga_tablica.dodaj("wiedziała")
-druga_tablica.dodaj("jak.")
-
+tablica.dodaj("Witaj")
+tablica.dodaj("tablico.")
+tablica.zamien(1, "pliku.")
 tablica.wyswietl()
-druga_tablica.wyswietl()
+
+tablica.wyzeruj()
+tablica.wyswietl()
