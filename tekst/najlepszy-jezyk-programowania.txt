@@ -1,0 +1,48 @@
+Najlepszy język programowania
+
+Na rynku jest wiele ciekawych rozwiązań z dziedziny programowania.
+
+Bankowość lubi nowe rozwiązania i lubi opierać się o sprawdzone, dobre
+rozwiązania.
+
+Obecnie najlepszym językiem programowania jest Python i dalej długo,
+dłuuuuugo nic. Najlepszymi technologiami są te oparte o język Python.
+
+Wiele osób uważa język C za nie do pobicia. Chodzi o to, że doszedłem
+do wniosku, że język C nie jest językiem programowania, za jaki uchodzi
+od zawsze tylko językiem skryptowym. Mimo wszystko Python przebija
+C szybkością działania.
+
+Sam używam Pythona i nie narzekam.
+
+Z języków programowania można wyróżnić Kotlin, który lubię,
+Dart, Scalę, która jest świetna i szybka.
+
+Kiedyś stworzyłem parę programów w Scali, okazało się że są fajne.
+W Scali pisze się bardzo fajnie, ale że jest wolniejsza od Pythona
+to nie ma sensu na nią przechodzić.
+
+F# jest spoko, ale jest też powolny.
+
+Java jest językiem skryptowym więc jej nie wymieniam, ale ktoś kiedyś
+próbował z niej zrobić język programowania. W silniku jMonkeyEngine,
+silniku gier opartym o Javę, istniało wstrzykiwanie zależności i model
+encji, które prawie że uczyniły z Javy język programowania.
+
+XML jest kolejnym językiem programowania. Uwaga! Wymieniam XML jako język
+programowania. Utarło się, że język XML to język znaczników i niewiele
+różni się od zwykłego tekstu. Tymczasem jest to język programowania.
+
+Dalej jest Bootstrap. Bootstrap to znany zestaw komponentów graficznych
+służących do tworzenia stron internetowych. Stworzono na nim m.in.
+Twittera, w sensie sam wygląd. Jest to język programowania.
+
+Stworzyłem parę projektów w oparciu o Bootstrapa i polecam go dla każdej
+osoby, która tworzy wygląd stron internetowych. 
+
+Z baz danych polecam PostgreSQL i dalej długo, długo nic. Potem jest
+Oracle. 
+
+MySQL uznawany za system bazy danych czy bazę danych tak naprawdę nie jest
+ani tym ani tym. Jest powłoką skryptową. Jest bardzo wolny i odradzam
+korzystanie z niego.
