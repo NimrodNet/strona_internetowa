@@ -1,6 +1,11 @@
-from przenies import *
+from pobierz_date_modyfikacji import *
+from pobierz_date_utworzenia import *
 
-nowa_sciezka = "folder/trzeci_folder/"
-sciezka = "folder/drugi_folder/"
-przenies = Przenies()
-przenies.wykonaj(sciezka, nowa_sciezka)
+sciezka = "folder/"
+instancja = Pobierz_date_utworzenia()
+wynik = instancja.wykonaj(sciezka)
+print(wynik)
+
+instancja = Pobierz_date_modyfikacji()
+wynik = instancja.wykonaj(sciezka)
+print(wynik)
