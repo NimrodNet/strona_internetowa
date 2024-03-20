@@ -1,7 +1,5 @@
-from wyswietl_kod_strony import *
+from html import *
 
-sciezka = "https://www.google.com/"
-
-wyswietl_kod = Wyswietl_kod_strony()
-kod = wyswietl_kod.wykonaj(sciezka)
-print(kod)
+html = Html()
+p = html.paragraf()
+print(p)
