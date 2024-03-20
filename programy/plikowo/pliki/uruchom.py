@@ -1,11 +1,7 @@
-from pobierz_date_modyfikacji import *
-from pobierz_date_utworzenia import *
+from wyswietl_kod_strony import *
 
-sciezka = "folder/"
-instancja = Pobierz_date_utworzenia()
-wynik = instancja.wykonaj(sciezka)
-print(wynik)
+sciezka = "https://www.google.com/"
 
-instancja = Pobierz_date_modyfikacji()
-wynik = instancja.wykonaj(sciezka)
-print(wynik)
+wyswietl_kod = Wyswietl_kod_strony()
+kod = wyswietl_kod.wykonaj(sciezka)
+print(kod)

@@ -1,0 +1,37 @@
+MVC
+
+MVC to popularna strategia tworzenia aplikacji.
+
+Banki bardzo często korzystają z MVC. MVC to strategia model-view-controller,
+czyli po polsku model-widok-kontroler. 
+
+Aplikację dzieli się na trzy grupy: model, widok i kontroler. Widok to
+warstwa wyświetlająca informacje i przyjmująca informacje od użytkownika.
+Model zajmuje się logiką aplikacji, czyli działaniami arytmetycznymi,
+bazami danych, a kontroler pośredniczy między tymi dwoma warstwami.
+
+W rezultacie mamy jeden wspólny wzorzec, na którym opiera się cała obecna
+informatyka. Problem jest następujący. Dlaczego?
+
+Jest to wzorzec przestarzały. Angażuje użytkownika w proces przetwarzania
+informacji, który jest bardzo mozolny, skomplikowany i długi.
+
+Przykład. Aplikacja na smartfona do wyszukiwania restauracji. Użytkownik
+uruchamia aplikację, loguje się. Czeka chwilę aż wyświetlą się mu wszystkie
+restauracje.
+
+Wygląd aplikacji to widok. Wszystkie przyciski, pola tekstowe. Użytkownik
+klika w przycisk zaloguj po podaniu danych. Okazuje się, że dane są poprawne.
+Trzeba chwilę poczekać, aż system pobierze aktualną listę restauracji z
+bazy danych, czyli modelu, następnie przekaże listę do kontrolera, który
+decyduje jaka część aplikacji ma dostać te informacje.
+
+Po przekazaniu ich aplikacja wyświetla restauracje. Czasem idziemy do
+restauracji, a okazuje się, że to bar na stacji benzynowej. Może tam
+poznamy tę jedną, jedyną. Kto to wie, aplikacja to nie portal randkowy
+typu Tinder.
+
+Proces czekania to przetwarzanie. W popularnym systemie CMS Wordpress
+też musimy długo czekać na uruchomienie strony czy podstrony.
+
+W mojej ocenie MVC jest już przestarzałe i powinniśmy z niego rezygnować.

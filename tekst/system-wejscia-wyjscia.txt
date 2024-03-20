@@ -1,0 +1,50 @@
+System wejścia - wyjścia
+
+Stworzyłem system wejścia - wyjścia, który jest strategią i wzorcem
+tworzenia aplikacji.
+
+Bankowość lubi zmiany.
+
+System wejścia - wyjścia, w skrócie SWW to system, w którym podstawą
+jest wejście i wyjście. Jest on alternatywą do popularnego rozwiązania
+MVC.
+
+SWW definiuje dwa procesy, wejście i wyjście. System przyjmuje informacje
+i pokazuje je dla użytkownika. Nie ma mowy o skupianiu się na przetwarzaniu
+czy ingerowaniu w przetwarzanie użytkownika.
+
+Dzięki temu SWW jest dynamiczny i szybki. Nie angażuje użytkownika
+w proces przetwarzania informacji. Szybko reaguje na błędy. Zachowuje
+płynność przetwarzania. Te trzy cechy mocno promują system w górę.
+
+Co więcej, reaguje na nieprawidłową informację zwrotną. Nieprawidłową
+w danym kontekście. Może to być informacja nielogiczna, niespójna,
+nieczytelna.
+
+Jest to system elastyczny. Zawiera w sobie wszystkie zasady informatyczne,
+które działają i odrzuca te, które są wadliwe. 
+
+MVC, MVP, itd. przyjmują wszystko jak leci. Jeżeli jest błąd to co,
+schowamy go w wyjątku i jest dobrze. SWW pokazuje wszystkie informacje
+również te błędne i pomaga w ich interpretacji, analizie, wyciągnięciu
+wniosków.
+
+Pomaga w rozwijaniu własnych kontekstów.
+
+Jak to działa?
+
+Przypuśćmy, że chcemy usunąć z dowolnego zdania wszystkie przecinki.
+MVC angażuje nas w proces przetwarzania. W niedziałającej aplikacji musimy
+sprawdzić kod i MVC nalega żebyśmy zmienili go sami. Patrzymy na kod 
+i myślimy ile miesięcy może nam zająć edycja kodu taka żeby działał
+poprawnie. To jest obłęd.
+
+SWW zakłada działanie kodu lub nie. Jeżeli kod działa to widzimy jego
+wynik, jeżeli nie można skontaktować się z autorem w celu wyjaśnienia
+błędów. Zmiana w tym przypadku może być globalna lub lokalna.
+
+W każdym razie program na SWW działa lub nie. Widzimy wynik działania
+i informacje dodatkowe w przypadku błędów. Nic sami nie zmieniamy.
+Prędkość zmian w tym przypadku wynosi tydzień.
+
+Mówiąc krótko, SWW jest fajne.
