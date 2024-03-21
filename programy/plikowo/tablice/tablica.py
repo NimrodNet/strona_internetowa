@@ -119,3 +119,27 @@ class Tablica:
             "Nie można wyzerować elementów."), False]
             komunikat[0]
             return komunikat[1]
+
+    def konwertuj_tekst(self, tekst):
+        try:
+            tablica = tekst.split()
+            self.ustaw(tablica)
+            return self.zwroc()
+        except:
+            komunikat = [
+            print("Klasa Tablica, metoda konwertuj_tekst(). \n" +
+            "Nie można przekonwertować tekstu."), False]
+            komunikat[0]
+            return komunikat[1]
+
+    def konwertuj_znaki(self, tekst):
+        try:
+            tablica = list(tekst)
+            self.ustaw(tablica)
+            return self.zwroc()
+        except:
+            komunikat = [
+            print("Klasa Tablica, metoda konwertuj_znaki(). \n" +
+            "Nie można przekonwertować znaków."), False]
+            komunikat[0]
+            return komunikat[1]
