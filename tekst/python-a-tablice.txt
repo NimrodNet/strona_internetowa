@@ -1,0 +1,31 @@
+Python a tablice
+
+Tablice w Pythonie to ciekawy twór.
+
+Ostatnio przepisałem część kodu w Pythonie, który wcześniej napisałem,
+ze zwykłego na tablice. W teorii uważam, że tablice działają dużo
+szybciej od zwykłych zmiennych i znacznie przyspieszają działanie
+aplikacji.
+
+Jest to ciekawe. Ustawia się zmienną jako element tablicy.
+
+tablica = [zmienna]
+
+Tablicy używa się za zmienną. Zamiast zmienna = 5 używa się tablica[0] = 5.
+
+Tablice w Pythonie są... wskaźnikami. Tak więc zapis tablicowy to
+bezpośredni dostęp do pamięci i operowanie na niej. Zmienne dotykają
+kompilatora, debugera, masy innych rzeczy i gdzieś na końcu pamięci
+komputera.
+
+Z punktu widzenia optymalizacji jest to świetne rozwiązanie.
+
+Jeszcze takie fajne odkrycie. Biblioteki Pythona są napisane mozolnie.
+Tego prawie że nie da się rozczytać i jest to bardzo wolne. Z tego
+powodu Python jest tak wolny na komputerze. Po przejściu na tablice
+Python robi się raptownie szybszy od C czy Asemblera.
+
+Bycie szybszym od języka skryptowego C to już nieźle, ale od Asemblera? :D
+Asembler nie operuje bezpośrednio na pamięci.
+
+Python to fajny język.
