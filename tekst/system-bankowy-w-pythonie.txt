@@ -1,0 +1,25 @@
+System bankowy w Pythonie
+
+Na stronie freecodecamp.org możemy znaleźć przykład systemu bankowego.
+
+Link do strony: https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial/
+
+Krótkie omówienie kodu.
+
+W konstruktorze przesyłamy nazwę, numer konta i jego stan. Tworzymy
+metodę do zwiększania stanu konta, zmniejszania, metody do oceny banku,
+dodania klientów i mamy gotowy prosty system bankowy.
+
+Co pokazuje ten kod? To, że system bankowy nie musi być skomplikowany.
+Może być symulacją banku. Nie musimy przesyłać prawdziwych pieniędzy
+tylko wymyślone kwoty.
+
+Jest to świetny sposób na zobaczenie jak działa bank od strony kodu.
+W banku można założyć konto lub usunąć, dodać kwotę, itd. Dokładnie
+tak samo wygląda kod aplikacji bankowych.
+
+Może jest go trochę więcej, ale to dobrze. Ten przykład ma za zadanie
+tylko pokazać jak to wygląda.
+
+Ogólnie świetna sprawa. Tak samo tworzy się inne aplikacje, strony
+internetowe, itd.
