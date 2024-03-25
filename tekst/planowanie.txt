@@ -1,0 +1,68 @@
+Planowanie
+
+Czy powinniśmy planować to co robimy?
+
+Bank uwielbia planowanie.
+
+Powinniśmy planować wszystko po kolei. Po prostu wszystko! Plan pomaga
+usystematyzować nasze działania. Dzięki niemu możemy stworzyć założenie
+i je realizować w celu jego osiągnięcia. Pomaga czy umożliwia osiągnięcie
+celów.
+
+Po co nam cel?
+
+Cel w życiu jest bardzo ważny. Ktoś napatrzy się na kogoś i powie "chcę
+być szczupły jak ta osoba". W międzyczasie dowiaduje się o różnych planach
+treningowych, dietetycznych. Po pół roku ta osoba chwali się ładną sylwetką.
+
+Cel pomaga nam sprecyzować początek i koniec. Jest to niezbędne do tego
+żebyśmy obrali odpowiedni kierunek. Jeżeli mamy do zrobienia cztery
+czynności, a możemy i musimy wykonać tylko jedną, to nie robimy czterech
+rzeczy na raz tylko jedną rzecz, bo tylko jedną jesteśmy w stanie ukończyć.
+
+Życie bez celu jest możliwe, od tak sobie dryfowanie. Ktoś ma wygląd
+taki sobie, zdrowie takie sobie, je to co dają. To tak jak iść do
+restauracji i za każdym razem opierać się o zdanie kelnera. To jak mieć
+35 lat i czekać na decyzję rodziców i tylko na niej się opierać.
+
+Naszą naturą jest życie w jakimś celu.
+
+Dzięki planowi możemy znacznie zaoszczędzić czas. Jeżeli ktoś korzysta
+z Excela to wie, że to narzędzie może pomóc zaoszczędzić nam sporo czasu.
+
+Przypuśćmy, że ktoś ma 100 liczb, z których musi wyciągnąć sumę, czyli
+wynik dodawania. Tak jest bardzo często. Część osób korzysta z Excela,
+część z kalkulatora. Excel robi to automatycznie, kalkulatorem musimy
+liczyć ręcznie.
+
+W pewnym momencie dokładamy 10 liczb i zmieniamy wartość 20 liczb, które
+już są. Kalkulatorem musimy liczyć wszystko od nowa, a Excel robi to za nas.
+W przypadku miliona liczb, którymi zarządza mała firma w dzisiejszych
+czasach czy osoba prywatna liczenie kalkulatorem wszystkiego od nowa
+zajmie nam masę czasu, parę tygodni. Liczby mogą się zmieniać bardzo
+szybko, co sekundę, setną sekundę, miliardową sekundę, itd.
+
+Excel liczy to za nas i za każdym razem mamy aktualny i prawidłowy wynik.
+Licząc na kalkulatorze podajemy błędny wynik, ponieważ jest niepełny.
+
+Czy taki zbiór danych jest niezbędny? Jasne, że tak. A tabelki w czym
+narysujemy? Długopisem na kartce?
+
+Z miliona liczb może bardzo szybko zrobić się miliard, z miliarda
+tryliard, itd.
+
+Excel czy programy podobne do niego są niezbędne u każdego dzisiaj.
+
+Zarządzanie w planowaniu wygląda podobnie. Częstym błędem jest to, że my
+chcemy zarządzać innymi blokując te osoby. Wymagamy niewiadomo czego.
+Przykładowo, ktoś chce dodać dane do Excela. Inna osoba mówi licz na 
+kalkulatorze. 
+
+Excel jest dużo lepszym narzędziem. Czemu ktoś chce liczyć na kalkulatorze?
+Bo nie zna się na Excelu. Trzeba nauczyć się obsługi Excela.
+
+Wniosek z tego jest prosty. Dziś upada masę firm, bo nie znają się na
+podstawowych narzędziach tj. Excel, Word, itd. Każdy miał dużo czasu
+żeby się tego nauczyć i żeby nasze działania były dynamiczne oraz żeby
+odbić się od dna trzeba nauczyć się podstaw narzędzi, które automatyzują
+wiele procesów jak Excel, Word, Photoshop, itp. Bez tego ani rusz.
