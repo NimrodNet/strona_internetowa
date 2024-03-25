@@ -4,6 +4,7 @@
 # działanie strony internetowej.
 
 # Blokowanie adresów IP
+deny from 51.68.230.210
 deny from 20.65.168.203
 deny from 149.56.150.110
 deny from 15.228.121.143
