@@ -1,0 +1,39 @@
+Algorytm sortowania tablicy
+
+Sortowanie jest jedną z najważniejszych rzeczy w algorytmice.
+
+Wymyśliłem algorytm priorytetów.
+
+Są 2 tablice. Jedna z elementami do posortowania, a druga pusta, 
+przechowująca kolejności elementów.
+
+Sprawdza się każdy element tablicy, a do tablicy priorytetów wpisuje się
+kolejność występowania elementów w tablicy. Po przepisaniu wszystkich
+kolejości przepisuje się tablicę elementów na nowo w ustalonej kolejności.
+
+Przykładowo, mamy tablicę 4 elementów: aa, ab, ac i aa. Sprawdzamy
+pierwszy element z drugim. Element aa jest mniejszy od ab, więc pierwszy
+element tablicy kolejności to 1, a drugi to 2.
+
+Następnie sprawdzamy aa i ac. Jest podobna sytuacja. Pierwszy element to 1,
+a trzeci to 2. Ostatni jest aa, więc tablica kolejności wygląda tak: 1, 2,
+2, 1.
+
+Następnie idziemy do elementu ab. Do wcześniejszych już nie wracamy, w tym
+przypadku aa. Porównujemy ab z ac, ab wynosi 2, a ac 3. Następnie porównujemy
+ab z aa, ab wynosi 2, aa 1. Mniejszych priorytetów nie zmieniamy, równe
+lub większe zmieniamy.
+
+Następnie przechodzimy do ac. ac wynosi 3, aa 1.
+
+Priorytety wyglądają tak: aa 1, ab 2, ac 3, aa 1. Przepisujemy tablicę
+względem priorytetów i mamy aa, aa, ab, ac.
+
+Dla każdego warunku priorytety ustawiamy od mniejszego do większego. 
+
+Jest to algorytm bardzo szybki, pozwala posortować bardzo duże ilości
+danych oraz bardzo małe w bardzo krótkim czasie. Umożliwia filtrowanie,
+wyszukiwanie, itd.
+
+Jeżeli mamy słowo "aaa" i "aa" to większy priorytet ma "aa", czyli tablica
+będzie wynosiła aaa 2, aa 1, a posortowana tablica to aa, aaa.
