@@ -187,6 +187,20 @@ class Tekst:
             "Nie można znaleźć fraz.")
             return False
 
+    def wyszukaj(self, fraza):
+        try:
+            maksimum = self.zwroc_rozmiar() + 1
+            lista_indeksow = []
+            for indeks in range(0, maksimum):
+                self.ustaw_indeks(indeks)
+                indeksy = self.znajdz_wszystkie(fraza)
+                lista_indeksow.append(indeksy)
+            return lista_indeksow
+        except:
+            print("Klasa Tekst, metoda wyszukaj(). \n" + 
+            "Nie można wyszukać frazy.")
+            return False
+
     def wstaw(self, fraza, indeks):
         try:
             dlugosc = self.zwroc_dlugosc()
