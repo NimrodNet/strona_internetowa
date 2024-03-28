@@ -17,6 +17,7 @@ class Silnik:
     def inicjuj(self):
         try:
             pygame.init()
+            self.zegar = pygame.time.Clock()
             self.ustaw_rozdzielczosc(1280, 720)
             self.ustaw_logike_gry()
             return True
@@ -37,22 +38,35 @@ class Silnik:
     def ustaw_logike_gry(self):
         try:
             flaga_gry = True
-            opcje = [0, 0, 0, 0]
+            opcje = [1, 0, 0, 0]
+            numer = 0
+            pozycja = [0, 0]
+            ruch_do_gory = [0, 1, 0, 0]
+            ruch_w_dol = [0, -1, 0, 0]
+            ruch_w_lewo = [-1, 0, 0, 0]
+            ruch_w_prawo = [1, 0, 0, 0]
+            opcje = ruch_w_prawo
             while flaga_gry:
                 for wydarzenie in pygame.event.get():
                     if wydarzenie.type == pygame.QUIT:
                         flaga_gry = False
                 przycisk = pygame.key.get_pressed()
                 if przycisk[pygame.K_w]:
-                    opcje[1] += 1
+                    opcje = ruch_do_gory
                 if przycisk[pygame.K_s]:
-                    opcje[1] -= 1
+                    opcje = ruch_w_dol
                 if przycisk[pygame.K_a]:
-                    opcje[0] -= 1
+                    opcje = ruch_w_lewo
                 if przycisk[pygame.K_d]:
-                    opcje[0] += 1
+                    opcje = ruch_w_prawo
                 if przycisk[pygame.K_q]:
                     print(opcje)
+                if numer % 500 == 0:
+                    if opcje == ruch_do_gory:
+                        pozycja[1] += 1
+                        print(pozycja)
+                    numer = 0
+                numer += 1
                 pygame.display.flip()
             pygame.quit()
 
