@@ -37,11 +37,22 @@ class Silnik:
     def ustaw_logike_gry(self):
         try:
             flaga_gry = True
-
+            opcje = [0, 0, 0, 0]
             while flaga_gry:
                 for wydarzenie in pygame.event.get():
                     if wydarzenie.type == pygame.QUIT:
                         flaga_gry = False
+                przycisk = pygame.key.get_pressed()
+                if przycisk[pygame.K_w]:
+                    opcje[1] += 1
+                if przycisk[pygame.K_s]:
+                    opcje[1] -= 1
+                if przycisk[pygame.K_a]:
+                    opcje[0] -= 1
+                if przycisk[pygame.K_d]:
+                    opcje[0] += 1
+                if przycisk[pygame.K_q]:
+                    print(opcje)
                 pygame.display.flip()
             pygame.quit()
 

@@ -1,0 +1,130 @@
+
+<!-- Początek strony html -->
+<!DOCTYPE html>
+<html>
+<!-- Początek sekcji nagłówka -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Silniki wyszukiwania -->
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<!-- Favicon -->
+<link rel="icon" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="mask-icon" href="favicon.svg" color="blue">
+<!-- Tytuł strony  -->
+<title>Algorytm A*</title>
+<meta name="description" content="Algorytm A* jest jednym z legendarnych algorytmów w informatyce.">
+<meta name="keywords" content="algorytm, a*, algorytm a*">
+<meta name="author" content="o-autorze.txt">
+
+<!-- Style CSS -->
+<link rel="stylesheet" href="../css/stylus/moduly/blog/blog.css">
+</head>
+<!-- Koniec sekcji nagłówka -->
+<body>
+
+<naglowek>
+<tytul>W przeszłości</tytul>
+<opis>Blog</opis>
+<naglowek>
+
+<nawigacja>
+<a href="../index.html">Strona główna</a>
+<a href="../o-nas.html">O nas</a>
+<a href="../kontakt.html">Kontakt</a>
+<a href="../wsparcie.html">Wsparcie</a>
+</nawigacja>
+
+<artykul>
+    <img src="../grafika/karta-kredytowa.jpeg" alt="Karta kredytowa"/>
+    <tytul>Algorytm A*</tytul>
+    <tekst>
+        <p>
+Algorytm A*
+</p>
+<p>
+Algorytm A* jest jednym z legendarnych algorytmów w informatyce.
+</p>
+<p>
+W bankowości algorytm A* jest bardzo często wykorzystywany do przeszukiwania
+różnych rzeczy.
+</p>
+<p>
+Algorytm A* znany jako Algorytm A z gwiazdką jest bardzo znanym algorytmem.
+Używa się go w teorii gier. Wiele gier jest opartych o ten algorytm.
+</p>
+<p>
+Kiedy klikamy w jakiejś grze miejsce myszką, gdzie ma iść nasza postać
+i ona sama idzie omijając przeszkody to żeby odnaleźć drogę do punktu,
+w którym nasza postać podąża używa się algorytmu A*.
+</p>
+<p>
+W grach widzimy pewien świat. Tak naprawdę komputer opiera się na zwykłych
+liczbach i tekstach, a dopiero potem dodaje tekstury, muzykę i całą resztę.
+</p>
+<p>
+W algorytmie A* bardzo ważny jest tzw. stan. To, co my widzimy w grze
+w rzeczywistości jest bardzo prostą strukturą. Przypuśćmy, że mamy tablicę
+dwuwymiarową. W tej tablicy mamy pola i liczby. Liczba 1 to wolna droga,
+którą możemy iść, 2 to optymalna droga, a 0 to droga zablokowana, na której
+stoi przeszkoda.
+</p>
+<p>
+3 to miejsce do którego podąża nasza postać. Algorytm A* nadaje wartości
+polom dzięki czemu nasza postać wie, że ma iść po 2, ewentualnie 1 w stronę
+2 żeby dojść do 3. Po drodze omija 0.
+</p>
+<p>
+Kiedy postać dochodzi do 3 przeszukuwanie zostaje zakończone. Przeszukiwanie
+może być statyczne lub dynamiczne.
+</p>
+<p>
+W grze typu Tibia czy World of Warcraft widzimy zastosowanie tego algorytmu.
+Gracz klika w miejsce nieco dalej oddalone i postać sama wyszukuje drogę.
+Podobnie w znanej grze Metin2.
+</p>
+<p>
+Algorytm jest wykorzystywany w teorii gier od 1968 roku. Jego kilka
+właściwości to znajdowanie optymalnej drogi z jednego punktu do drugiego. 
+Wykorzystuje heurystykę.
+</p>
+<p>
+W obecnej informatyce algorytmowi A* często towarzyszą drzewa gier, które
+rysowane są z góry do dołu, co jest błędem. Jeżeli informatyka tak jak każda
+inna nauka odwzorowuje świat rzeczywisty to musi wiedzieć, że z góry w dół
+rosną drzewa, które wyjadają inne drzewa. Normalnie drzewa rosną z dołu
+do góry.
+</p>
+<p>
+Niestety cała obecna informatyka opiera się o drzewa, które tworzone są
+w odwrotny sposób. To tak jakby drzewa wyrastały z nieba, a nie z ziemi.
+</p>
+<p>
+Niemniej istnieje wiele rodzajów drzew, jak drzewa gier czy drzewa 
+przeszukiwań binarnych. W teorii drzew ważne jest też przycinanie
+alfa-beta, które polega na przeszukiwaniu tylko części drzewa i ominięciu
+niektórych części, ponieważ istnieje wysokie prawdopodobieństwo, że
+owoce danego drzewa, czyli liczby, nie spełniają założeń.
+</p>
+<p>
+W przypadku nieodnalezienia wyników w zakładanych konarach drzewa algorytm
+wraca do nieprzeszukanych konarów i tam szuka odpowiedzi jeżeli jest to
+niezbędne. Najwyżej powie, że mu się nie chce i nie szuka dalej. Oczywiście
+to żart.
+</p>
+<p>
+A* można wykorzystać w innych dziedzinach spoza informatyki. Narysować
+sobie poprawne drzewo stanów, które wyszukuje różne rozwiązania. Nie musi
+to być drzewo, a np. kempa trawy, która jest dużo szybsza od drzewa, 
+aczkolwiek tą strukturę danych wprowadziłem sam.
+</p>
+    </tekst>
+</artykul>
+
+<stopka>Copyright ©. Wszelkie praca zastrzeżone.</stopka>
+
+</body>
+
+</head>
