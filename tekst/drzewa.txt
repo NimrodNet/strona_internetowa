@@ -1,0 +1,47 @@
+Drzewa
+
+Drzewa w informatyce są bardzo popularne.
+
+Drzewo posiada swój korzeń, pień, konary, gałęzie, liście i owoce.
+Często owoce w teorii informatyki są nazywane stanami.
+
+W bankowości drzewa to jest totalna podstawa. Nieznajomość tej elementarnej
+struktury graniczy z narcyzmem. To jest totalna podstawa.
+
+Drzewo zaczyna się od korzenia. Korzeń to część drzewa, która rośnie pod 
+ziemią, czasem jest widoczna nad ziemią, jak korzenie wychodzą do góry.
+Stabilizuje całe drzewo i pozyskuje dla niego wartości odżywcze i owady,
+które je oczyszczają.
+
+Pień rośnie od ziemi do korony. Filtruje, dostarcza i przechowuje składniki
+odżywcze. Dalej są konary, które idą od pnia. Tworzą koronę. Dalej są 
+gałęzie, czyli takie cienkie konary, dalej liście, które na ogół są zielone,
+ale jesienią robią się zielone, czerwone, brązowe. Dalej są owoce, które
+drzewo ma wiosną, latem, czasem jesienią, w zależności od drzewa.
+
+Obecnym problemem w informatyce jest to, że drzewa są rysowane od góry 
+do dołu. Jest to ogromny problem, ponieważ programy oparte o takie drzewa
+w dłuższej perspektywie czasu nie działają prawidłowo.
+
+Drzewa są wykorzystywane w różnego rodzaju wyszukiwaniach. Mamy 100 liczb.
+Każdy owoc drzewa to stan. Każdy stan posiada jedną liczbę. Naszym zadaniem
+jest posortowanie drzewa tak żeby uzyskać liczby od najmniejszego do
+największego.
+
+Są wykorzystywane w informatyce, automatyce, budownictwie, medycynie, 
+prawie, itd. W wielu dziedzinach. Mechanicy samochodowi je wykorzystują, 
+każdy.
+
+Dlaczego źle rysujemy drzewa? Ktoś kiedyś wymyślił, ale nie zdefiniował
+teorię drzewa. Ja ją zdefiniowałem. Niektórzy nie widzą drzew latami.
+W niektórych miastach prawie że nie ma drzew. Niektóre osoby prawie że
+nie wyjeżdżają poza miasto. Takie osoby wykładają na uczelniach. W
+rezultacie przez tyle lat nikt nie zauważył, że drzewa w informatyce są
+rysowane źle, bo na odwrót.
+
+Wystarczy przejechać się do lasu, ewentualnie dla totalnych leniwców
+włączyć przeglądarkę, wpisać w wyszukiwarce "drzewo", wejść w grafikę
+i naszym oczom ukazują się drzewa.
+
+Każdy informatyk powinien udać się do lasu, takie jest moje zdanie, choćby
+na 5 minut.
