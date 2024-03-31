@@ -1,0 +1,61 @@
+Podsumowanie I kwartału 2024 r.
+
+I kwartał 2024 r. to w ogóle I kwartał od kiedy rozwijam tematykę 
+bankowości.
+
+Bankowość to moje hobby, zainteresowanie. Rozwijam je od 3 miesięcy.
+
+Jedną z ważniejszych rzeczy jest konsekwencja. Do tej pory nie rozwijałem
+niczego przez tak długi czas. Bankowość pokazuje w moim przypadku, że są
+dziedziny, które rozwijamy lepiej i korzej. Bank, bankowość to mój talent.
+
+Patrząc w ten sposób uważam, że warto jest znaleźć talent i go rozwijać.
+Wcześniej rozwijałem inne dziedziny, teraz używam ich w rozwoju bankowości
+i rozwijam inne.
+
+Nigdy wcześniej bym nie pomyślał, że bankowość i pornografia mają ze sobą
+coś wspólnego. Teraz widzę to bardzo wyraźnie. Bank wchodzi w każdą sferę
+życia w swoich zwykłych strukturach, po prostu jako bank.
+
+Na pewno widzę wytrwałość. Trzeba być wytrwałym, obrać konkretny cel, a
+jak nie idzie to znaleźć inny, który idzie. Bankowość mi idzie więc ją
+rozwijam, a że uważam, że to mój talent to tym lepiej.
+
+Wiele z założeń, które rozpisałem dużo wcześniej teraz wcielam w życie.
+
+Chciałem być niezależny. Zauważyłem, że dziś niezależność jest trudno
+osiągnąć. Ta strefa jest niezależna. 
+
+Odkryłem, że dobrze poruszam się w sferze informacji. Informacja i bank
+to jak ryba i woda. 
+
+Ogólnie kwartał był bardzo fajny. Parę razy nawet zaatakowano serwery
+mojej strony. Nauczyłem się w ten sposób żeby informować o każdym 
+zagrożeniu. Dostałem informację, zablokowałem adresy IP, które były
+najgorsze i jest dobrze.
+
+Zainstalowałem zaporę na serwer więc jest jeszcze trochę lepiej, ale mimo
+wszystko dobrze.
+
+Stworzyłem system, dzięki któremu dodawanie treści jest bardzo łatwe i
+szybkie. Napisałem program w Pythonie, który zamienia pliki tekstowe
+na strony internetowe. Piszę w pliku dowolny tekst, a program zapisuje
+wszystko jako stronę internetową, dodaje do strony głównej, generuje pliki
+mapy strony.
+
+To jest wygodne, bo tworzenie zwykłych plików tekstowych jest proste i nie
+muszę myśleć o tym żeby co chwila dodawać kod html do strony internetowej.
+
+W ogóle odkryłem m.in. to, że Python to jest język programowania bardzo 
+dobry dla mnie. Do tej pory myślałem, że jest wolny, ale okazało się, że
+jest bardzo szybki. Do tego jest w miarę prosty. Ma w sobie masę modułów,
+można w nim zrobić wszystko.
+
+Programowanie w bankowości to podstawa, bez tego ani rusz.
+
+Rozwijam to, co chcę. Uważam, że jest spoko.
+
+I tak to. Właściwie pododawałem głównie wpisy i jeszcze napisałem parę
+programów.
+
+Podsumowując, jest fajnie.
