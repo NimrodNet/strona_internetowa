@@ -37,6 +37,7 @@ class Silnik:
 
     def ustaw_logike_gry(self):
         try:
+            self.inicjuj_liste_opcji()
             flaga_gry = True
             opcje = [1, 0, 0, 0]
             numer = 0
@@ -45,26 +46,32 @@ class Silnik:
             ruch_w_dol = [0, -1, 0, 0]
             ruch_w_lewo = [-1, 0, 0, 0]
             ruch_w_prawo = [1, 0, 0, 0]
-            opcje = ruch_w_prawo
+            self.dodaj_opcje(ruch_w_prawo)
             while flaga_gry:
                 for wydarzenie in pygame.event.get():
                     if wydarzenie.type == pygame.QUIT:
                         flaga_gry = False
                 przycisk = pygame.key.get_pressed()
                 if przycisk[pygame.K_w]:
-                    opcje = ruch_do_gory
+                    self.dodaj_opcje(ruch_do_gory)
                 if przycisk[pygame.K_s]:
-                    opcje = ruch_w_dol
+                    self.dodaj_opcje(ruch_w_dol)
                 if przycisk[pygame.K_a]:
-                    opcje = ruch_w_lewo
+                    self.dodaj_opcje(ruch_w_lewo)
                 if przycisk[pygame.K_d]:
-                    opcje = ruch_w_prawo
+                    self.dodaj_opcje(ruch_w_prawo)
                 if przycisk[pygame.K_q]:
                     print(opcje)
                 if numer % 500 == 0:
                     if opcje == ruch_do_gory:
                         pozycja[1] += 1
-                        print(pozycja)
+                    if opcje == ruch_w_dol:
+                        pozycja[1] -= 1
+                    if opcje == ruch_w_prawo:
+                        pozycja[0] += 1
+                    if opcje == ruch_w_lewo:
+                        pozycja[0] -= 1
+                    print(pozycja)
                     numer = 0
                 numer += 1
                 pygame.display.flip()
@@ -74,4 +81,39 @@ class Silnik:
         except:
             print("Klasa " + nazwa_klasy + ", ustaw_logike_gry(). \n" +
             "Nie można ustawić logiki gry.")
+            return False
+
+    def inicjuj_liste_opcji(self):
+        try:
+            self.lista_opcji = []
+            return True
+        except:
+            print("Klasa " + nazwa_klasy + ", inicjuj_liste_opcji(). \n" +
+            "Nie można zwrócić listy opcji.")
+            return False
+
+    def zwroc_liste_opcji(self):
+        try:
+            return self.lista_opcji
+        except:
+            print("Klasa " + nazwa_klasy + ", zwroc_liste_opcji(). \n" +
+            "Nie można zwrócić listy opcji.")
+            return False
+
+    def dodaj_opcje(self, opcja):
+        try:
+            self.zwroc_liste_opcji().append(opcja)
+            return True
+        except:
+            print("Klasa " + nazwa_klasy + ", dodaj_opcje(). \n" +
+            "Nie można dodać opcji.")
+            return False
+
+    def zwroc_ostatnia_opcje(self):
+        try:
+            indeks = len(self.zwroc_liste_opcji())
+            return indeks
+        except:
+            print("Klasa " + nazwa_klasy + ", zwroc_ostatnia_opcje(). \n" +
+            "Nie można zwrócić ostatniej opcji.")
             return False

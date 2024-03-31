@@ -1,4 +1,4 @@
 class Nawigacja:
 
     def __init__(cls):
-        print("Stan nawigacja.")
+        print("Stan nawigacji.")
