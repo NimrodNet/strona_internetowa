@@ -1,4 +1,6 @@
 import pygame
+import random
+from gracze.waz import *
 
 class Silnik:
 
@@ -47,32 +49,42 @@ class Silnik:
             ruch_w_lewo = [-1, 0, 0, 0]
             ruch_w_prawo = [1, 0, 0, 0]
             self.dodaj_opcje(ruch_w_prawo)
+            pozycja_robaka = self.generuj_tablice(-10, 10)
+            print("Najbliższa pozycja robaka to", pozycja_robaka)
+            waz = Waz()
+            waz.wyswietl_statystyki()
             while flaga_gry:
                 for wydarzenie in pygame.event.get():
                     if wydarzenie.type == pygame.QUIT:
                         flaga_gry = False
                 przycisk = pygame.key.get_pressed()
-                if przycisk[pygame.K_w]:
+                ostatnia_opcja = self.zwroc_ostatnia_opcje()
+                if przycisk[pygame.K_w] and ostatnia_opcja != ruch_w_dol:
                     self.dodaj_opcje(ruch_do_gory)
-                if przycisk[pygame.K_s]:
+                if przycisk[pygame.K_s] and ostatnia_opcja != ruch_do_gory:
                     self.dodaj_opcje(ruch_w_dol)
-                if przycisk[pygame.K_a]:
+                if przycisk[pygame.K_a] and ostatnia_opcja != ruch_w_prawo:
                     self.dodaj_opcje(ruch_w_lewo)
-                if przycisk[pygame.K_d]:
+                if przycisk[pygame.K_d] and ostatnia_opcja != ruch_w_lewo:
                     self.dodaj_opcje(ruch_w_prawo)
-                if przycisk[pygame.K_q]:
-                    print(opcje)
-                if numer % 500 == 0:
-                    if opcje == ruch_do_gory:
+                if numer % 300 == 0:
+                    if ostatnia_opcja == ruch_do_gory:
                         pozycja[1] += 1
-                    if opcje == ruch_w_dol:
+                    if ostatnia_opcja == ruch_w_dol:
                         pozycja[1] -= 1
-                    if opcje == ruch_w_prawo:
+                    if ostatnia_opcja == ruch_w_prawo:
                         pozycja[0] += 1
-                    if opcje == ruch_w_lewo:
+                    if ostatnia_opcja == ruch_w_lewo:
                         pozycja[0] -= 1
                     print(pozycja)
                     numer = 0
+                if pozycja == pozycja_robaka:
+                    print("Zjałem sobie robaka rasówę.")
+                    pozycja_robaka = self.generuj_tablice(-10, 10)
+                    print("Najbliższa pozycja robaka to", pozycja_robaka)
+                    waz.zwieksz_punkty()
+                    waz.zwieksz_dlugosc()
+                    waz.wyswietl_statystyki()
                 numer += 1
                 pygame.display.flip()
             pygame.quit()
@@ -81,6 +93,17 @@ class Silnik:
         except:
             print("Klasa " + nazwa_klasy + ", ustaw_logike_gry(). \n" +
             "Nie można ustawić logiki gry.")
+            return False
+
+    def generuj_tablice(self, poczatek, koniec):
+        try:
+            pierwszy_element = random.randint(poczatek, koniec)
+            drugi_element = random.randint(poczatek, koniec)
+            tablica = [pierwszy_element, drugi_element]
+            return tablica
+        except:
+            print("Klasa " + nazwa_klasy + ", metoda generuj_tabice(). \n" +
+            "Nie można wygenerować tablicy..")
             return False
 
     def inicjuj_liste_opcji(self):
@@ -111,8 +134,10 @@ class Silnik:
 
     def zwroc_ostatnia_opcje(self):
         try:
-            indeks = len(self.zwroc_liste_opcji())
-            return indeks
+            opcje = self.zwroc_liste_opcji()
+            indeks = len(opcje) - 1
+            opcja = opcje[indeks]
+            return opcja
         except:
             print("Klasa " + nazwa_klasy + ", zwroc_ostatnia_opcje(). \n" +
             "Nie można zwrócić ostatniej opcji.")

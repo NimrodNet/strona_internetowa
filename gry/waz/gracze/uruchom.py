@@ -1,4 +1,4 @@
-from mapa import *
+from waz import *
 
-mapa = Mapa()
-mapa.wyswietl()
+waz = Waz()
+waz.wyswietl_statystyki()
