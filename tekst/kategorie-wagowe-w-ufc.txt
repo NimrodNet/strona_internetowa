@@ -1,0 +1,19 @@
+Kategorie wagowe w UFC
+
+Waga słomkowa, ang. Strawweight, 52 kg czyli 115 funtów.
+
+Waga musza, ang. Flyweight, 57 kg czyli 125 funtów
+
+Waga kogucia, ang. Bantamweight, 61 kg czyli 135 funtów.
+
+Waga piórkowa, ang. Featherweight, 66 kg czyli 145 funtów.
+
+Waga lekka, ang. Lightweight, 70 kg czyli 155 funtów.
+
+Waga półśrednia, ang. Welterweight, 77 kg czyli 170 funtów.
+
+Waga średnia, ang. Middleweight, 84 kg czyli 185 funtów.
+
+Waga półciężka, ang. Light heavyweight, 93 kg czyli 205 funtów.
+
+Waga ciężka, ang. Heavyweight, 120 kg czyli 265 funtów.
